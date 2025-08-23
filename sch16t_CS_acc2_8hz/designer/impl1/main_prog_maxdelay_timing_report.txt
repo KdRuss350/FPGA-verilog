@@ -1,0 +1,510 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.9 SP6
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+Date: Wed Jan 22 16:30:16 2025
+
+
+Design: main_prog
+Family: ProASIC3
+Die: A3P1000
+Package: 144 FBGA
+Temperature Range: -40 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clk_in
+Period (ns):                18.937
+Frequency (MHz):            52.807
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        0.542
+Max Clock-To-Out (ns):      12.834
+
+                            Input to Output
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clk_in
+
+SET Register to Register
+
+Path 1
+  From:                  temp[10]:CLK
+  To:                    comm/data_pc241[240]:D
+  Delay (ns):            18.323
+  Slack (ns):
+  Arrival (ns):          21.511
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   18.937
+
+Path 2
+  From:                  temp[0]:CLK
+  To:                    comm/data_pc241[240]:D
+  Delay (ns):            18.298
+  Slack (ns):
+  Arrival (ns):          21.471
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   18.897
+
+Path 3
+  From:                  temp[1]:CLK
+  To:                    comm/data_pc241[240]:D
+  Delay (ns):            17.841
+  Slack (ns):
+  Arrival (ns):          21.029
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   18.455
+
+Path 4
+  From:                  temp[2]:CLK
+  To:                    comm/data_pc241[240]:D
+  Delay (ns):            17.771
+  Slack (ns):
+  Arrival (ns):          20.959
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   18.385
+
+Path 5
+  From:                  acc_exampx/accdata_out[18]:CLK
+  To:                    comm/data_pc241[240]:D
+  Delay (ns):            17.594
+  Slack (ns):
+  Arrival (ns):          20.805
+  Required (ns):
+  Setup (ns):            0.547
+  Minimum Period (ns):   18.231
+
+
+Expanded Path 1
+  From: temp[10]:CLK
+  To: comm/data_pc241[240]:D
+  data required time                             N/C
+  data arrival time                          -   21.511
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk_in
+               +     0.000          Clock source
+  0.000                        clk_in (r)
+               +     0.000          net: clk_in
+  0.000                        INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  1.043                        INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  1.043                        INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.087                        INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  1.415                        INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  2.174                        INBUF_0_RNI3ULF:Y (r)
+               +     1.014          net: clk_oscillator
+  3.188                        temp[10]:CLK (r)
+               +     0.749          cell: ADLIB:DFN1E1C1
+  3.937                        temp[10]:Q (f)
+               +     1.814          net: temp[10]
+  5.751                        comm/sum_m1_4:B (f)
+               +     0.634          cell: ADLIB:XNOR3
+  6.385                        comm/sum_m1_4:Y (f)
+               +     0.341          net: comm/sum_m1_4
+  6.726                        comm/sum_m3_14:B (f)
+               +     0.734          cell: ADLIB:AO18
+  7.460                        comm/sum_m3_14:Y (f)
+               +     2.695          net: comm/sum_i1_mux_5
+  10.155                       comm/command_counter_RNIO2AH6_0[10]:C (f)
+               +     0.498          cell: ADLIB:AO13
+  10.653                       comm/command_counter_RNIO2AH6_0[10]:Y (r)
+               +     0.327          net: comm/N_907
+  10.980                       comm/sum_check_temp_272_RNO_0:B (r)
+               +     0.925          cell: ADLIB:OA1
+  11.905                       comm/sum_check_temp_272_RNO_0:Y (r)
+               +     0.341          net: comm/sum_check_temp_272_0
+  12.246                       comm/sum_check_temp_272:C (r)
+               +     0.666          cell: ADLIB:AO1
+  12.912                       comm/sum_check_temp_272:Y (r)
+               +     0.692          net: comm/N_937
+  13.604                       comm/sum_check_temp_348_1:C (r)
+               +     1.001          cell: ADLIB:XOR3
+  14.605                       comm/sum_check_temp_348_1:Y (f)
+               +     0.314          net: comm/sum_check_temp_348_1
+  14.919                       comm/sum_check_temp_348_1_RNICBFFM2:A (f)
+               +     0.496          cell: ADLIB:XOR2
+  15.415                       comm/sum_check_temp_348_1_RNICBFFM2:Y (r)
+               +     0.357          net: comm/N_968
+  15.772                       comm/sum_check_temp_0_0_ADD_m6:C (r)
+               +     0.623          cell: ADLIB:AO18
+  16.395                       comm/sum_check_temp_0_0_ADD_m6:Y (f)
+               +     0.341          net: comm/ADD_i3_mux
+  16.736                       comm/sum_check_temp_0_0_ADD_8x8_fast_I34_Y_i:A (f)
+               +     0.900          cell: ADLIB:AO13
+  17.636                       comm/sum_check_temp_0_0_ADD_8x8_fast_I34_Y_i:Y (f)
+               +     0.341          net: comm/N_18
+  17.977                       comm/sum_check_temp_0_0_ADD_8x8_fast_I49_Y:C (f)
+               +     0.877          cell: ADLIB:XNOR3
+  18.854                       comm/sum_check_temp_0_0_ADD_8x8_fast_I49_Y:Y (f)
+               +     0.354          net: comm/sum_check_temp[7]
+  19.208                       comm/data_pc241_RNO_0[240]:B (f)
+               +     1.003          cell: ADLIB:XOR2
+  20.211                       comm/data_pc241_RNO_0[240]:Y (f)
+               +     0.339          net: comm/un1_check_sum_check
+  20.550                       comm/data_pc241_RNO[240]:B (f)
+               +     0.620          cell: ADLIB:MX2B
+  21.170                       comm/data_pc241_RNO[240]:Y (r)
+               +     0.341          net: comm/i12_mux
+  21.511                       comm/data_pc241[240]:D (r)
+                                    
+  21.511                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk_in
+               +     0.000          Clock source
+  N/C                          clk_in (r)
+               +     0.000          net: clk_in
+  N/C                          INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  N/C                          INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  N/C                          INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  N/C                          INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  N/C                          INBUF_0_RNI3ULF:Y (r)
+               +     0.947          net: clk_oscillator
+  N/C                          comm/data_pc241[240]:CLK (r)
+               -     0.547          Library setup time: ADLIB:DFN1E1C1
+  N/C                          comm/data_pc241[240]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                  spi_miso
+  To:                    sch16t_module_u0/u0_sch16t_rw/u0_spi_master/shift_in_reg[0]:D
+  Delay (ns):            3.282
+  Slack (ns):
+  Arrival (ns):          3.282
+  Required (ns):
+  Setup (ns):            0.512
+  External Setup (ns):   0.542
+
+Path 2
+  From:                  RO
+  To:                    out/RECV_FK/ro_temp0:D
+  Delay (ns):            2.872
+  Slack (ns):
+  Arrival (ns):          2.872
+  Required (ns):
+  Setup (ns):            0.583
+  External Setup (ns):   0.348
+
+
+Expanded Path 1
+  From: spi_miso
+  To: sch16t_module_u0/u0_sch16t_rw/u0_spi_master/shift_in_reg[0]:D
+  data required time                             N/C
+  data arrival time                          -   3.282
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        spi_miso (r)
+               +     0.000          net: spi_miso
+  0.000                        spi_miso_pad/U0/U0:PAD (r)
+               +     1.028          cell: ADLIB:IOPAD_IN
+  1.028                        spi_miso_pad/U0/U0:Y (r)
+               +     0.000          net: spi_miso_pad/U0/NET1
+  1.028                        spi_miso_pad/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.072                        spi_miso_pad/U0/U1:Y (r)
+               +     2.210          net: spi_miso_c
+  3.282                        sch16t_module_u0/u0_sch16t_rw/u0_spi_master/shift_in_reg[0]:D (r)
+                                    
+  3.282                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk_in
+               +     0.000          Clock source
+  N/C                          clk_in (r)
+               +     0.000          net: clk_in
+  N/C                          INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  N/C                          INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  N/C                          INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  N/C                          INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  N/C                          INBUF_0_RNI3ULF:Y (r)
+               +     1.078          net: clk_oscillator
+  N/C                          sch16t_module_u0/u0_sch16t_rw/u0_spi_master/shift_in_reg[0]:CLK (r)
+               -     0.512          Library setup time: ADLIB:DFN1E1C1
+  N/C                          sch16t_module_u0/u0_sch16t_rw/u0_spi_master/shift_in_reg[0]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_mosi_reg:CLK
+  To:                    spi_mosi
+  Delay (ns):            9.689
+  Slack (ns):
+  Arrival (ns):          12.834
+  Required (ns):
+  Clock to Out (ns):     12.834
+
+Path 2
+  From:                  sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_sck_reg:CLK
+  To:                    spi_sck
+  Delay (ns):            7.067
+  Slack (ns):
+  Arrival (ns):          10.191
+  Required (ns):
+  Clock to Out (ns):     10.191
+
+Path 3
+  From:                  sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_cs_n_reg:CLK
+  To:                    spi_cs_n
+  Delay (ns):            6.859
+  Slack (ns):
+  Arrival (ns):          9.968
+  Required (ns):
+  Clock to Out (ns):     9.968
+
+Path 4
+  From:                  comm/di1:CLK
+  To:                    DI
+  Delay (ns):            6.200
+  Slack (ns):
+  Arrival (ns):          9.321
+  Required (ns):
+  Clock to Out (ns):     9.321
+
+
+Expanded Path 1
+  From: sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_mosi_reg:CLK
+  To: spi_mosi
+  data required time                             N/C
+  data arrival time                          -   12.834
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk_in
+               +     0.000          Clock source
+  0.000                        clk_in (r)
+               +     0.000          net: clk_in
+  0.000                        INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  1.043                        INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  1.043                        INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.087                        INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  1.415                        INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  2.174                        INBUF_0_RNI3ULF:Y (r)
+               +     0.971          net: clk_oscillator
+  3.145                        sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_mosi_reg:CLK (r)
+               +     0.749          cell: ADLIB:DFN1E1C1
+  3.894                        sch16t_module_u0/u0_sch16t_rw/u0_spi_master/spi_mosi_reg:Q (f)
+               +     5.026          net: spi_mosi_c
+  8.920                        spi_mosi_pad/U0/U1:D (f)
+               +     0.669          cell: ADLIB:IOTRI_OB_EB
+  9.589                        spi_mosi_pad/U0/U1:DOUT (f)
+               +     0.000          net: spi_mosi_pad/U0/NET1
+  9.589                        spi_mosi_pad/U0/U0:D (f)
+               +     3.245          cell: ADLIB:IOPAD_TRI
+  12.834                       spi_mosi_pad/U0/U0:PAD (f)
+               +     0.000          net: spi_mosi
+  12.834                       spi_mosi (f)
+                                    
+  12.834                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk_in
+               +     0.000          Clock source
+  N/C                          clk_in (r)
+                                    
+  N/C                          spi_mosi (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                  rst:CLK
+  To:                    out/RECV_FK/ro_temp0:PRE
+  Delay (ns):            7.211
+  Slack (ns):
+  Arrival (ns):          10.347
+  Required (ns):
+  Recovery (ns):         0.302
+  Minimum Period (ns):   7.542
+  Skew (ns):             0.029
+
+Path 2
+  From:                  rst:CLK
+  To:                    comm/count_clk384[7]:CLR
+  Delay (ns):            7.202
+  Slack (ns):
+  Arrival (ns):          10.338
+  Required (ns):
+  Recovery (ns):         0.302
+  Minimum Period (ns):   7.537
+  Skew (ns):             0.033
+
+Path 3
+  From:                  rst:CLK
+  To:                    sch16t_module_u0/u0_sch16t_init/r_st_cnt[6]:CLR
+  Delay (ns):            7.192
+  Slack (ns):
+  Arrival (ns):          10.328
+  Required (ns):
+  Recovery (ns):         0.302
+  Minimum Period (ns):   7.536
+  Skew (ns):             0.042
+
+Path 4
+  From:                  rst:CLK
+  To:                    sch16t_module_u0/u0_sch16t_init/r_st_cnt[16]:CLR
+  Delay (ns):            7.192
+  Slack (ns):
+  Arrival (ns):          10.328
+  Required (ns):
+  Recovery (ns):         0.302
+  Minimum Period (ns):   7.536
+  Skew (ns):             0.042
+
+Path 5
+  From:                  rst:CLK
+  To:                    sch16t_module_u0/u0_sch16t_init/ri_data[19]:CLR
+  Delay (ns):            7.231
+  Slack (ns):
+  Arrival (ns):          10.367
+  Required (ns):
+  Recovery (ns):         0.302
+  Minimum Period (ns):   7.533
+  Skew (ns):             0.000
+
+
+Expanded Path 1
+  From: rst:CLK
+  To: out/RECV_FK/ro_temp0:PRE
+  data required time                             N/C
+  data arrival time                          -   10.347
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk_in
+               +     0.000          Clock source
+  0.000                        clk_in (r)
+               +     0.000          net: clk_in
+  0.000                        INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  1.043                        INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  1.043                        INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  1.087                        INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  1.415                        INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  2.174                        INBUF_0_RNI3ULF:Y (r)
+               +     0.962          net: clk_oscillator
+  3.136                        rst:CLK (r)
+               +     0.749          cell: ADLIB:DFN1
+  3.885                        rst:Q (f)
+               +     4.707          net: rst
+  8.592                        Global_rst/CLKINT:A (f)
+               +     0.779          cell: ADLIB:CLKINT
+  9.371                        Global_rst/CLKINT:Y (f)
+               +     0.976          net: reset
+  10.347                       out/RECV_FK/ro_temp0:PRE (f)
+                                    
+  10.347                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk_in
+               +     0.000          Clock source
+  N/C                          clk_in (r)
+               +     0.000          net: clk_in
+  N/C                          INBUF_0/U0/U0:PAD (r)
+               +     1.043          cell: ADLIB:IOPAD_IN
+  N/C                          INBUF_0/U0/U0:Y (r)
+               +     0.000          net: INBUF_0/U0/NET1
+  N/C                          INBUF_0/U0/U1:YIN (r)
+               +     0.044          cell: ADLIB:IOIN_IB
+  N/C                          INBUF_0/U0/U1:Y (r)
+               +     0.328          net: INBUF_0
+  N/C                          INBUF_0_RNI3ULF:A (r)
+               +     0.759          cell: ADLIB:CLKINT
+  N/C                          INBUF_0_RNI3ULF:Y (r)
+               +     0.933          net: clk_oscillator
+  N/C                          out/RECV_FK/ro_temp0:CLK (r)
+               -     0.302          Library recovery time: ADLIB:DFN1P1
+  N/C                          out/RECV_FK/ro_temp0:PRE
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

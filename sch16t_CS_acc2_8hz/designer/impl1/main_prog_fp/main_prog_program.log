@@ -1,0 +1,36 @@
+FlashPro
+Version: 11.9.6.7
+Release: v11.9 SP6
+
+Software Version: 11.9.6.7
+PDB file 'C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\designer\impl1\main_prog.pdb'
+has been loaded successfully.
+DESIGN : main_prog;  CHECKSUM : 3C28;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '01322' : FlashPro4
+Opened
+'C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\designer\impl1\main_prog_fp\main_prog.p\
+ro'
+The 'open_project' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '01322' : Scan Chain...
+Warning: programmer '01322' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '01322' : Scan Chain PASSED.
+programmer '01322' : Executing action PROGRAM
+programmer '01322' : EXPORT FSN[48] = 802a98403878
+programmer '01322' : Erase ...
+programmer '01322' : Completed erase
+programmer '01322' : EXPORT CHECKSUM[16] = 3c28
+programmer '01322' : Programming FPGA Array
+programmer '01322' : Verifying FPGA Array
+programmer '01322' :         Verifying FPGA Array -- pass
+programmer '01322' : Finished: Wed Jan 22 16:32:04 2025 (Elapsed time 00:01:03)
+programmer '01322' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

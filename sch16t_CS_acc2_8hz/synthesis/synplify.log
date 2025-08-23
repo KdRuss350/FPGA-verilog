@@ -1,0 +1,108 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    DESKTOP-IVINMLF
+Date:        Wed Jan 22 16:28:07 2025
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log main_prog_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+auto_infer_blackbox is not supported in current product.
+
+log file: "C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.srr"
+
+Running: synthesis in foreground
+
+
+
+Running main_prog_syn|synthesis
+
+
+Running: compile (Compile) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:07 2025
+
+
+Running: compile_flow (Compile Process) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:07 2025
+
+
+Running: compiler (Compile Input) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:07 2025
+
+Copied C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\synwork\main_prog_comp.srs to C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.srs
+
+
+compiler completed
+# Wed Jan 22 16:28:09 2025
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:09 2025
+
+
+multi_srs_gen completed
+# Wed Jan 22 16:28:10 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\synwork\main_prog_mult.srs to C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.srs
+
+Complete: Compile Process on main_prog_syn|synthesis
+
+
+Running: premap (Pre-mapping) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:10 2025
+
+
+premap completed with warnings
+# Wed Jan 22 16:28:10 2025
+
+Return Code: 1
+Run Time:00h:00m:00s
+
+Complete: Compile on main_prog_syn|synthesis
+
+
+Running: map (Map) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:10 2025
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on main_prog_syn|synthesis
+# Wed Jan 22 16:28:10 2025
+
+Copied C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\synwork\main_prog_m.srm to C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.srm
+
+
+fpga_mapper completed with warnings
+# Wed Jan 22 16:28:22 2025
+
+Return Code: 1
+Run Time:00h:00m:12s
+
+Complete: Map on main_prog_syn|synthesis
+
+Complete: Logic Synthesis on main_prog_syn|synthesis
+
+TCL script complete: "main_prog_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

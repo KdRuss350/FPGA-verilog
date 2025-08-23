@@ -1,0 +1,869 @@
+# Wed Jan 22 16:28:11 2025
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_1 (in view: work.sch16t_init_Z1(verilog)) on net o_state_1 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_2 (in view: work.sch16t_init_Z1(verilog)) on net o_state_2 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_3 (in view: work.sch16t_init_Z1(verilog)) on net o_state_3 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_4 (in view: work.sch16t_init_Z1(verilog)) on net o_state_4 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_5 (in view: work.sch16t_init_Z1(verilog)) on net o_state_5 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_6 (in view: work.sch16t_init_Z1(verilog)) on net o_state_6 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_7 (in view: work.sch16t_init_Z1(verilog)) on net o_state_7 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_8 (in view: work.sch16t_init_Z1(verilog)) on net o_state_8 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_9 (in view: work.sch16t_init_Z1(verilog)) on net o_state_9 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_10 (in view: work.sch16t_init_Z1(verilog)) on net o_state_10 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\communication_2m.v":112:0:112:5|Removing sequential instance comm.command[6:4] because it is equivalent to instance comm.command[2:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\main_prog.v":194:0:194:5|Found counter in view:work.main_prog(verilog) instance r_cnt[2:0] 
+@N: MF238 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\main_prog.v":106:13:106:24|Found 15-bit incrementor, 'reset_cnt_1[14:0]'
+Encoding state machine data_cnt[3:0] (in view: work.out_filter(verilog))
+original code -> new code
+   00000 -> 00
+   00001 -> 01
+   00010 -> 10
+   00011 -> 11
+@N: MO225 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|There are no possible illegal states for state machine data_cnt[3:0] (in view: work.out_filter(verilog)); safe FSM implementation is not required.
+@N: MF176 |Default generator successful 
+Encoding state machine STATE_REC[4:0] (in view: work.uart_receiver(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\uart_receiver.v":56:0:56:5|Found counter in view:work.uart_receiver(verilog) instance rec_cnt3[11:0] 
+@N: MF238 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\uart_receiver.v":120:17:120:32|Found 4-bit incrementor, 'un5_rec_cnt2[3:0]'
+@N: MF238 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\uart_receiver.v":92:18:92:33|Found 12-bit incrementor, 'un5_rec_cnt1[11:0]'
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\communication_2m.v":112:0:112:5|Found counter in view:work.communication_2M(verilog) instance command_counter[15:0] 
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\communication_2m.v":271:0:271:5|Found counter in view:work.communication_2M(verilog) instance count_out[7:0] 
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\communication_2m.v":271:0:271:5|Found counter in view:work.communication_2M(verilog) instance count_clk384[8:0] 
+Encoding state machine STATE_OUT[2:0] (in view: work.communication_2M(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+@N: MF176 |Default generator successful 
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[15] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[14] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[13] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[12] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[11] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[10] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[9] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[8] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[7] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[6] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":78:0:78:5|Found counter in view:work.sch16t_init_Z1(verilog) instance r_st_cnt[23:0] 
+Encoding state machine r_st_current[13:0] (in view: work.sch16t_init_Z1(verilog))
+original code -> new code
+   00000001 -> 00000000000001
+   00000010 -> 00000000000010
+   00000011 -> 00000000000100
+   00000100 -> 00000000001000
+   00000101 -> 00000000010000
+   00000110 -> 00000000100000
+   00000111 -> 00000001000000
+   00001000 -> 00000010000000
+   00001001 -> 00000100000000
+   00001010 -> 00001000000000
+   00001011 -> 00010000000000
+   00001100 -> 00100000000000
+   00001101 -> 01000000000000
+   00001110 -> 10000000000000
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[0] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[1] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[2] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[3] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[20] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[21] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[22] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[23] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[24] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[25] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[26] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[27] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[28] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[29] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[30] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[31] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":165:0:165:5|Found counter in view:work.spi_master_Z3(verilog) instance cycle_cnt[15:0] 
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":177:0:177:5|Found counter in view:work.spi_master_Z3(verilog) instance bit_cnt[5:0] 
+Encoding state machine current_state[8:0] (in view: work.spi_master_Z3(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@N: MO231 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\acc.v":21:0:21:5|Found counter in view:work.acc(verilog) instance acc_count[15:0] 
+@N: MF176 |Default generator successful 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[5] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[6] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[7] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[8] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[9] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[10] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[11] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[12] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[13] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[14] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[15] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[16] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[17] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[18] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[19] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[20] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[25] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[28] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[29] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[30] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[31] is reduced to a combinational gate by constant propagation. 
+@W: MO160 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[29] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[20] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[17] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[14] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[8] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 117MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 132MB peak: 133MB)
+
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[0] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[1] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[2] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[3] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[20] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[21] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[22] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[23] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[23] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[22] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[21] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[20] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BN132 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":44:0:44:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[27] because it is equivalent to instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 129MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 129MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 130MB peak: 143MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 131MB peak: 143MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 146MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 144MB peak: 146MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 143MB peak: 146MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 193MB peak: 196MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                             Fanout, notes                   
+---------------------------------------------------------------------------------------
+Global_rst.CLKINT / Y                                  881 : 881 asynchronous set/reset
+x_gyro_data_flag / Q                                   41                              
+x_gyro_data[15] / Q                                    25                              
+y_gyro_data_flag / Q                                   41                              
+y_gyro_data[15] / Q                                    25                              
+z_gyro_data_flag / Q                                   41                              
+z_gyro_data[15] / Q                                    25                              
+sch16t_module_u0.u0_sch16t_init.ro_init_finish / Q     58                              
+sch16t_module_u0.u0_sch16t_rw.r_send_valid_2 / Y       28                              
+comm.STATE_OUT[0] / Q                                  244                             
+sch16t_module_u0.u0_sch16t_rw.r_send7 / Y              27                              
+acc_exampx.acc_count8_NE / Y                           32                              
+acc_exampy.acc_count8_NE / Y                           32                              
+acc_exampz.acc_count8_NE / Y                           32                              
+comm.m3 / Y                                            242                             
+=======================================================================================
+
+@N: FP130 |Promoting Net clk_oscillator on CLKINT  I_129 
+@N: FP130 |Promoting Net comm.STATE_OUT[0] on CLKINT  I_130 
+@N: FP130 |Promoting Net comm.N_4_0 on CLKINT  I_131 
+@N: FP130 |Promoting Net sch16t_module_u0.w_init_finish on CLKINT  I_132 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 193MB peak: 196MB)
+
+Replicating Combinational Instance acc_exampz.acc_count8_NE, fanout 32 segments 2
+Replicating Combinational Instance acc_exampy.acc_count8_NE, fanout 32 segments 2
+Replicating Combinational Instance acc_exampx.acc_count8_NE, fanout 32 segments 2
+Replicating Combinational Instance sch16t_module_u0.u0_sch16t_rw.r_send7, fanout 27 segments 2
+Replicating Combinational Instance sch16t_module_u0.u0_sch16t_rw.r_send_valid_2, fanout 28 segments 2
+Replicating Sequential Instance z_gyro_data[15], fanout 25 segments 2
+Replicating Sequential Instance z_gyro_data_flag, fanout 41 segments 2
+Replicating Sequential Instance y_gyro_data[15], fanout 25 segments 2
+Replicating Sequential Instance y_gyro_data_flag, fanout 41 segments 2
+Replicating Sequential Instance x_gyro_data[15], fanout 25 segments 2
+Replicating Sequential Instance x_gyro_data_flag, fanout 41 segments 2
+
+Added 0 Buffers
+Added 11 Cells via replication
+	Added 6 Sequential Cells via replication
+	Added 5 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 194MB peak: 196MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 909 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance   
+------------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              port                   909        x_gyro_data_flag_0
+==========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 188MB peak: 196MB)
+
+Writing Analyst data base C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\synwork\main_prog_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 190MB peak: 196MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 192MB peak: 196MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 190MB peak: 196MB)
+
+@W: MT420 |Found inferred clock main_prog|clk_in with period 10.00ns. Please declare a user-defined clock on object "p:clk_in"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jan 22 16:28:22 2025
+#
+
+
+Top view:               main_prog
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -10.563
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+main_prog|clk_in     100.0 MHz     48.6 MHz      10.000        20.563        -10.563     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+main_prog|clk_in  main_prog|clk_in  |  10.000      -10.563  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main_prog|clk_in
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                         Arrival            
+Instance                       Reference            Type         Pin     Net                    Time        Slack  
+                               Clock                                                                               
+-------------------------------------------------------------------------------------------------------------------
+temp[0]                        main_prog|clk_in     DFN1E1C1     Q       temp[0]                0.737       -10.563
+comm.command[1]                main_prog|clk_in     DFN1E1C1     Q       command[1]             0.737       -10.464
+comm.command_counter[1]        main_prog|clk_in     DFN1E1C1     Q       command_counter[1]     0.737       -10.325
+temp[8]                        main_prog|clk_in     DFN1E1C1     Q       temp[8]                0.737       -10.299
+acc_exampx.accdata_out[8]      main_prog|clk_in     DFN1E1C1     Q       datax_out[8]           0.580       -10.203
+comm.command_counter[9]        main_prog|clk_in     DFN1E1C1     Q       command_counter[9]     0.737       -10.049
+acc_exampx.accdata_out[16]     main_prog|clk_in     DFN1E1C1     Q       datax_out[16]          0.580       -9.942 
+temp[9]                        main_prog|clk_in     DFN1E1C1     Q       temp[9]                0.737       -9.640 
+acc_exampz.accdata_out[8]      main_prog|clk_in     DFN1E1C1     Q       dataz_out[8]           0.580       -9.619 
+acc_exampx.accdata_out[0]      main_prog|clk_in     DFN1E1C1     Q       datax_out[0]           0.580       -9.616 
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                Starting                                                        Required            
+Instance                                        Reference            Type         Pin     Net                   Time         Slack  
+                                                Clock                                                                               
+------------------------------------------------------------------------------------------------------------------------------------
+comm.data_pc241[240]                            main_prog|clk_in     DFN1E1C1     D       i12_mux               9.496        -10.563
+comm.data_pc241[239]                            main_prog|clk_in     DFN1E1C1     D       data_pc241_6[239]     9.496        -9.324 
+comm.data_pc241[238]                            main_prog|clk_in     DFN1E1C1     D       data_pc241_6[238]     9.496        -7.941 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[0]     main_prog|clk_in     DFN1C1       D       N_348                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[1]     main_prog|clk_in     DFN1C1       D       N_120                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[2]     main_prog|clk_in     DFN1C1       D       N_122                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[3]     main_prog|clk_in     DFN1C1       D       N_124                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[4]     main_prog|clk_in     DFN1C1       D       N_126                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[5]     main_prog|clk_in     DFN1C1       D       N_128                 9.461        -7.520 
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[6]     main_prog|clk_in     DFN1C1       D       N_130                 9.461        -7.520 
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      20.059
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -10.563
+
+    Number of logic level(s):                14
+    Starting point:                          temp[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+temp[0]                                          DFN1E1C1     Q        Out     0.737     0.737       -         
+temp[0]                                          Net          -        -       2.037     -           13        
+comm.command_counter_RNIDEI91[9]                 XOR3         C        In      -         2.774       -         
+comm.command_counter_RNIDEI91[9]                 XOR3         Y        Out     0.752     3.526       -         
+N_840                                            Net          -        -       1.184     -           4         
+comm.command_counter_RNIU3SO2[9]                 MIN3         B        In      -         4.710       -         
+comm.command_counter_RNIU3SO2[9]                 MIN3         Y        Out     0.984     5.694       -         
+sum_i1_mux_3                                     Net          -        -       0.322     -           1         
+comm.command_counter_RNIV9FI7[9]                 OA1A         A        In      -         6.015       -         
+comm.command_counter_RNIV9FI7[9]                 OA1A         Y        Out     0.933     6.948       -         
+sum_check_temp_135_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIUPAFC[9]                 AO1          C        In      -         7.270       -         
+comm.command_counter_RNIUPAFC[9]                 AO1          Y        Out     0.655     7.925       -         
+N_881                                            Net          -        -       1.279     -           5         
+comm.command_counter_RNI8D1VM[8]                 OA1          B        In      -         9.204       -         
+comm.command_counter_RNI8D1VM[8]                 OA1          Y        Out     0.902     10.106      -         
+sum_check_temp_205_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIB0ONI1[8]                OR2          B        In      -         10.428      -         
+comm.command_counter_RNIB0ONI1[8]                OR2          Y        Out     0.514     10.942      -         
+sum_check_temp_277_0_tz                          Net          -        -       0.322     -           1         
+comm.command_counter_RNIC60IO1[10]               NOR2B        B        In      -         11.264      -         
+comm.command_counter_RNIC60IO1[10]               NOR2B        Y        Out     0.516     11.780      -         
+sum_check_temp_277_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNITFIBM2[10]               OR2          A        In      -         12.101      -         
+comm.command_counter_RNITFIBM2[10]               OR2          Y        Out     0.363     12.464      -         
+N_939                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         B        In      -         12.850      -         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         Y        Out     0.937     13.787      -         
+N_968                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         C        In      -         14.173      -         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         Y        Out     0.614     14.786      -         
+ADD_i3_mux                                       Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         A        In      -         15.172      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         Y        Out     1.062     16.234      -         
+N_18                                             Net          -        -       0.322     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        C        In      -         16.555      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        Y        Out     0.985     17.541      -         
+sum_check_temp[7]                                Net          -        -       0.386     -           2         
+comm.data_pc241_RNO_0[240]                       XOR2         B        In      -         17.927      -         
+comm.data_pc241_RNO_0[240]                       XOR2         Y        Out     0.937     18.863      -         
+un1_check_sum_check                              Net          -        -       0.322     -           1         
+comm.data_pc241_RNO[240]                         MX2B         B        In      -         19.185      -         
+comm.data_pc241_RNO[240]                         MX2B         Y        Out     0.553     19.738      -         
+i12_mux                                          Net          -        -       0.322     -           1         
+comm.data_pc241[240]                             DFN1E1C1     D        In      -         20.059      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 20.563 is 11.948(58.1%) logic and 8.615(41.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      19.960
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -10.464
+
+    Number of logic level(s):                15
+    Starting point:                          comm.command[1] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+comm.command[1]                                  DFN1E1C1     Q        Out     0.737     0.737       -         
+command[1]                                       Net          -        -       1.423     -           6         
+comm.command_RNI3R7B_0[1]                        OR2          B        In      -         2.160       -         
+comm.command_RNI3R7B_0[1]                        OR2          Y        Out     0.646     2.807       -         
+N_839                                            Net          -        -       0.386     -           2         
+comm.command_RNIV4GS[1]                          XOR3         C        In      -         3.193       -         
+comm.command_RNIV4GS[1]                          XOR3         Y        Out     0.985     4.178       -         
+N_870                                            Net          -        -       1.279     -           5         
+comm.command_counter_RNIV7692[8]                 AO1          C        In      -         5.457       -         
+comm.command_counter_RNIV7692[8]                 AO1          Y        Out     0.633     6.090       -         
+sum_check_temp_130_0_tz_0                        Net          -        -       0.386     -           2         
+comm.command_counter_RNIQPCQ5[8]                 OA1          B        In      -         6.476       -         
+comm.command_counter_RNIQPCQ5[8]                 OA1          Y        Out     0.652     7.127       -         
+sum_check_temp_130_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNISSQE8[8]                 AO1          C        In      -         7.449       -         
+comm.command_counter_RNISSQE8[8]                 AO1          Y        Out     0.633     8.081       -         
+N_879                                            Net          -        -       0.806     -           3         
+comm.command_counter_RNI8D1VM[8]                 OA1          A        In      -         8.888       -         
+comm.command_counter_RNI8D1VM[8]                 OA1          Y        Out     0.732     9.619       -         
+sum_check_temp_205_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIB0ONI1[8]                OR2          B        In      -         9.941       -         
+comm.command_counter_RNIB0ONI1[8]                OR2          Y        Out     0.646     10.587      -         
+sum_check_temp_277_0_tz                          Net          -        -       0.322     -           1         
+comm.command_counter_RNIC60IO1[10]               NOR2B        B        In      -         10.909      -         
+comm.command_counter_RNIC60IO1[10]               NOR2B        Y        Out     0.627     11.536      -         
+sum_check_temp_277_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNITFIBM2[10]               OR2          A        In      -         11.858      -         
+comm.command_counter_RNITFIBM2[10]               OR2          Y        Out     0.507     12.365      -         
+N_939                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         B        In      -         12.751      -         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         Y        Out     0.937     13.688      -         
+N_968                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         C        In      -         14.073      -         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         Y        Out     0.614     14.687      -         
+ADD_i3_mux                                       Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         A        In      -         15.073      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         Y        Out     1.062     16.135      -         
+N_18                                             Net          -        -       0.322     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        C        In      -         16.456      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        Y        Out     0.985     17.442      -         
+sum_check_temp[7]                                Net          -        -       0.386     -           2         
+comm.data_pc241_RNO_0[240]                       XOR2         B        In      -         17.827      -         
+comm.data_pc241_RNO_0[240]                       XOR2         Y        Out     0.937     18.764      -         
+un1_check_sum_check                              Net          -        -       0.322     -           1         
+comm.data_pc241_RNO[240]                         MX2B         B        In      -         19.086      -         
+comm.data_pc241_RNO[240]                         MX2B         Y        Out     0.553     19.638      -         
+i12_mux                                          Net          -        -       0.322     -           1         
+comm.data_pc241[240]                             DFN1E1C1     D        In      -         19.960      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 20.464 is 12.389(60.5%) logic and 8.074(39.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      19.821
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -10.325
+
+    Number of logic level(s):                15
+    Starting point:                          comm.command_counter[1] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+comm.command_counter[1]                          DFN1E1C1     Q        Out     0.737     0.737       -         
+command_counter[1]                               Net          -        -       1.423     -           6         
+comm.command_RNI3R7B_0[1]                        OR2          A        In      -         2.160       -         
+comm.command_RNI3R7B_0[1]                        OR2          Y        Out     0.507     2.668       -         
+N_839                                            Net          -        -       0.386     -           2         
+comm.command_RNIV4GS[1]                          XOR3         C        In      -         3.054       -         
+comm.command_RNIV4GS[1]                          XOR3         Y        Out     0.985     4.039       -         
+N_870                                            Net          -        -       1.279     -           5         
+comm.command_counter_RNIV7692[8]                 AO1          C        In      -         5.318       -         
+comm.command_counter_RNIV7692[8]                 AO1          Y        Out     0.633     5.951       -         
+sum_check_temp_130_0_tz_0                        Net          -        -       0.386     -           2         
+comm.command_counter_RNIQPCQ5[8]                 OA1          B        In      -         6.337       -         
+comm.command_counter_RNIQPCQ5[8]                 OA1          Y        Out     0.652     6.988       -         
+sum_check_temp_130_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNISSQE8[8]                 AO1          C        In      -         7.310       -         
+comm.command_counter_RNISSQE8[8]                 AO1          Y        Out     0.633     7.942       -         
+N_879                                            Net          -        -       0.806     -           3         
+comm.command_counter_RNI8D1VM[8]                 OA1          A        In      -         8.749       -         
+comm.command_counter_RNI8D1VM[8]                 OA1          Y        Out     0.732     9.480       -         
+sum_check_temp_205_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIB0ONI1[8]                OR2          B        In      -         9.802       -         
+comm.command_counter_RNIB0ONI1[8]                OR2          Y        Out     0.646     10.448      -         
+sum_check_temp_277_0_tz                          Net          -        -       0.322     -           1         
+comm.command_counter_RNIC60IO1[10]               NOR2B        B        In      -         10.770      -         
+comm.command_counter_RNIC60IO1[10]               NOR2B        Y        Out     0.627     11.397      -         
+sum_check_temp_277_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNITFIBM2[10]               OR2          A        In      -         11.719      -         
+comm.command_counter_RNITFIBM2[10]               OR2          Y        Out     0.507     12.226      -         
+N_939                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         B        In      -         12.612      -         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         Y        Out     0.937     13.549      -         
+N_968                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         C        In      -         13.934      -         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         Y        Out     0.614     14.548      -         
+ADD_i3_mux                                       Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         A        In      -         14.934      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         Y        Out     1.062     15.996      -         
+N_18                                             Net          -        -       0.322     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        C        In      -         16.317      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        Y        Out     0.985     17.302      -         
+sum_check_temp[7]                                Net          -        -       0.386     -           2         
+comm.data_pc241_RNO_0[240]                       XOR2         B        In      -         17.688      -         
+comm.data_pc241_RNO_0[240]                       XOR2         Y        Out     0.937     18.625      -         
+un1_check_sum_check                              Net          -        -       0.322     -           1         
+comm.data_pc241_RNO[240]                         MX2B         B        In      -         18.947      -         
+comm.data_pc241_RNO[240]                         MX2B         Y        Out     0.553     19.499      -         
+i12_mux                                          Net          -        -       0.322     -           1         
+comm.data_pc241[240]                             DFN1E1C1     D        In      -         19.821      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 20.325 is 12.250(60.3%) logic and 8.074(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      19.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -10.299
+
+    Number of logic level(s):                14
+    Starting point:                          temp[8] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+temp[8]                                          DFN1E1C1     Q        Out     0.737     0.737       -         
+temp[8]                                          Net          -        -       2.037     -           13        
+comm.command_counter_RNIDEI91[9]                 XOR3         A        In      -         2.774       -         
+comm.command_counter_RNIDEI91[9]                 XOR3         Y        Out     0.488     3.262       -         
+N_840                                            Net          -        -       1.184     -           4         
+comm.command_counter_RNIU3SO2[9]                 MIN3         B        In      -         4.446       -         
+comm.command_counter_RNIU3SO2[9]                 MIN3         Y        Out     0.984     5.429       -         
+sum_i1_mux_3                                     Net          -        -       0.322     -           1         
+comm.command_counter_RNIV9FI7[9]                 OA1A         A        In      -         5.751       -         
+comm.command_counter_RNIV9FI7[9]                 OA1A         Y        Out     0.933     6.684       -         
+sum_check_temp_135_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIUPAFC[9]                 AO1          C        In      -         7.006       -         
+comm.command_counter_RNIUPAFC[9]                 AO1          Y        Out     0.655     7.661       -         
+N_881                                            Net          -        -       1.279     -           5         
+comm.command_counter_RNI8D1VM[8]                 OA1          B        In      -         8.940       -         
+comm.command_counter_RNI8D1VM[8]                 OA1          Y        Out     0.902     9.842       -         
+sum_check_temp_205_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIB0ONI1[8]                OR2          B        In      -         10.164      -         
+comm.command_counter_RNIB0ONI1[8]                OR2          Y        Out     0.514     10.678      -         
+sum_check_temp_277_0_tz                          Net          -        -       0.322     -           1         
+comm.command_counter_RNIC60IO1[10]               NOR2B        B        In      -         10.999      -         
+comm.command_counter_RNIC60IO1[10]               NOR2B        Y        Out     0.516     11.516      -         
+sum_check_temp_277_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNITFIBM2[10]               OR2          A        In      -         11.837      -         
+comm.command_counter_RNITFIBM2[10]               OR2          Y        Out     0.363     12.200      -         
+N_939                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         B        In      -         12.586      -         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         Y        Out     0.937     13.523      -         
+N_968                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         C        In      -         13.909      -         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         Y        Out     0.614     14.522      -         
+ADD_i3_mux                                       Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         A        In      -         14.908      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         Y        Out     1.062     15.970      -         
+N_18                                             Net          -        -       0.322     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        C        In      -         16.291      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        Y        Out     0.985     17.277      -         
+sum_check_temp[7]                                Net          -        -       0.386     -           2         
+comm.data_pc241_RNO_0[240]                       XOR2         B        In      -         17.663      -         
+comm.data_pc241_RNO_0[240]                       XOR2         Y        Out     0.937     18.599      -         
+un1_check_sum_check                              Net          -        -       0.322     -           1         
+comm.data_pc241_RNO[240]                         MX2B         B        In      -         18.921      -         
+comm.data_pc241_RNO[240]                         MX2B         Y        Out     0.553     19.473      -         
+i12_mux                                          Net          -        -       0.322     -           1         
+comm.data_pc241[240]                             DFN1E1C1     D        In      -         19.795      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 20.299 is 11.684(57.6%) logic and 8.615(42.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      19.699
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -10.203
+
+    Number of logic level(s):                15
+    Starting point:                          acc_exampx.accdata_out[8] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+acc_exampx.accdata_out[8]                        DFN1E1C1     Q        Out     0.580     0.580       -         
+datax_out[8]                                     Net          -        -       1.279     -           5         
+comm.sum_check_temp_13                           MAJ3         B        In      -         1.860       -         
+comm.sum_check_temp_13                           MAJ3         Y        Out     0.984     2.843       -         
+N_831                                            Net          -        -       0.806     -           3         
+comm.sum_check_temp_63_0_tz_s                    AO1          C        In      -         3.650       -         
+comm.sum_check_temp_63_0_tz_s                    AO1          Y        Out     0.655     4.305       -         
+sum_check_temp_63_0_tz_out                       Net          -        -       0.322     -           1         
+comm.command_counter_RNI76NN2[8]                 OA1B         B        In      -         4.626       -         
+comm.command_counter_RNI76NN2[8]                 OA1B         Y        Out     0.984     5.610       -         
+sum_check_temp_63_0                              Net          -        -       0.386     -           2         
+comm.command_counter_RNIQPCQ5[8]                 OA1          A        In      -         5.996       -         
+comm.command_counter_RNIQPCQ5[8]                 OA1          Y        Out     0.984     6.980       -         
+sum_check_temp_130_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNISSQE8[8]                 AO1          C        In      -         7.301       -         
+comm.command_counter_RNISSQE8[8]                 AO1          Y        Out     0.655     7.956       -         
+N_879                                            Net          -        -       0.806     -           3         
+comm.command_counter_RNI8D1VM[8]                 OA1          A        In      -         8.763       -         
+comm.command_counter_RNI8D1VM[8]                 OA1          Y        Out     0.984     9.746       -         
+sum_check_temp_205_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNIB0ONI1[8]                OR2          B        In      -         10.068      -         
+comm.command_counter_RNIB0ONI1[8]                OR2          Y        Out     0.514     10.582      -         
+sum_check_temp_277_0_tz                          Net          -        -       0.322     -           1         
+comm.command_counter_RNIC60IO1[10]               NOR2B        B        In      -         10.904      -         
+comm.command_counter_RNIC60IO1[10]               NOR2B        Y        Out     0.516     11.420      -         
+sum_check_temp_277_0                             Net          -        -       0.322     -           1         
+comm.command_counter_RNITFIBM2[10]               OR2          A        In      -         11.741      -         
+comm.command_counter_RNITFIBM2[10]               OR2          Y        Out     0.363     12.105      -         
+N_939                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         B        In      -         12.490      -         
+comm.sum_check_temp_348_1_RNICBFFM2              XOR2         Y        Out     0.937     13.427      -         
+N_968                                            Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         C        In      -         13.813      -         
+comm.sum_check_temp_0_0.ADD_m6                   AO18         Y        Out     0.614     14.426      -         
+ADD_i3_mux                                       Net          -        -       0.386     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         A        In      -         14.812      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i     AO13         Y        Out     1.062     15.874      -         
+N_18                                             Net          -        -       0.322     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        C        In      -         16.196      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y       XNOR3        Y        Out     0.985     17.181      -         
+sum_check_temp[7]                                Net          -        -       0.386     -           2         
+comm.data_pc241_RNO_0[240]                       XOR2         B        In      -         17.567      -         
+comm.data_pc241_RNO_0[240]                       XOR2         Y        Out     0.937     18.503      -         
+un1_check_sum_check                              Net          -        -       0.322     -           1         
+comm.data_pc241_RNO[240]                         MX2B         B        In      -         18.825      -         
+comm.data_pc241_RNO[240]                         MX2B         Y        Out     0.553     19.378      -         
+i12_mux                                          Net          -        -       0.322     -           1         
+comm.data_pc241[240]                             DFN1E1C1     D        In      -         19.699      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 20.203 is 12.810(63.4%) logic and 7.393(36.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 190MB peak: 196MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 190MB peak: 196MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_FBGA144_STD
+Report for cell main_prog.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     6      1.0        6.0
+              AND3    28      1.0       28.0
+               AO1   203      1.0      203.0
+              AO13     6      1.0        6.0
+              AO16     1      1.0        1.0
+              AO18    15      1.0       15.0
+              AO1A    17      1.0       17.0
+              AO1C     5      1.0        5.0
+              AO1D     1      1.0        1.0
+              AOI1     2      1.0        2.0
+             AOI1B     8      1.0        8.0
+               AX1     2      1.0        2.0
+              AX1A     3      1.0        3.0
+              AX1B     1      1.0        1.0
+              AX1C    43      1.0       43.0
+              AX1D    43      1.0       43.0
+              AX1E     2      1.0        2.0
+             AXOI3     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+            CLKINT     5      0.0        0.0
+               GND    14      0.0        0.0
+               INV     4      1.0        4.0
+              MAJ3    83      1.0       83.0
+              MIN3     9      1.0        9.0
+               MX2   209      1.0      209.0
+              MX2A     3      1.0        3.0
+              MX2B    20      1.0       20.0
+              MX2C     2      1.0        2.0
+              NOR2    58      1.0       58.0
+             NOR2A   121      1.0      121.0
+             NOR2B   435      1.0      435.0
+              NOR3     7      1.0        7.0
+             NOR3A    43      1.0       43.0
+             NOR3B    32      1.0       32.0
+             NOR3C    85      1.0       85.0
+               OA1    64      1.0       64.0
+              OA1A     8      1.0        8.0
+              OA1B     6      1.0        6.0
+              OA1C     4      1.0        4.0
+              OAI1     3      1.0        3.0
+               OR2   160      1.0      160.0
+              OR2A    32      1.0       32.0
+              OR2B    20      1.0       20.0
+               OR3    45      1.0       45.0
+              OR3A     6      1.0        6.0
+              OR3B     3      1.0        3.0
+              OR3C     4      1.0        4.0
+               VCC    14      0.0        0.0
+               XA1    21      1.0       21.0
+              XA1A     2      1.0        2.0
+              XA1B     7      1.0        7.0
+              XA1C     6      1.0        6.0
+              XAI1     1      1.0        1.0
+             XAI1A     1      1.0        1.0
+             XNOR2     5      1.0        5.0
+             XNOR3    13      1.0       13.0
+              XO1A     2      1.0        2.0
+              XOR2   249      1.0      249.0
+              XOR3   120      1.0      120.0
+
+
+              DFN1    22      1.0       22.0
+            DFN1C1   192      1.0      192.0
+          DFN1E0C1    40      1.0       40.0
+          DFN1E0P1     2      1.0        2.0
+          DFN1E1C1   645      1.0      645.0
+          DFN1E1P1     2      1.0        2.0
+            DFN1P1     6      1.0        6.0
+                   -----          ----------
+             TOTAL  3223              3190.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     3
+            OUTBUF     4
+                   -----
+             TOTAL     7
+
+
+Core Cells         : 3190 of 24576 (13%)
+IO Cells           : 7
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 32MB peak: 196MB)
+
+Process took 0h:00m:11s realtime, 0h:00m:09s cputime
+# Wed Jan 22 16:28:22 2025
+
+###########################################################]

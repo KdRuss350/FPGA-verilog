@@ -1,0 +1,29 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Date: Wed Jan 22 16:30:07 2025
+Design Name: main_prog  Family: ProASIC3  Die: A3P1000  Package: 144 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    909               Net   : clk_oscillator
+                      Driver: INBUF_0_RNI3ULF/U_GL
+    887               Net   : reset
+                      Driver: Global_rst/CLKINT/U_GL
+    242               Net   : comm/N_4_0
+                      Driver: comm/STATE_OUT_RNIK04R4_0[1]/U_GL
+    244               Net   : comm/STATE_OUT[0]
+                      Driver: comm/STATE_OUT_RNIQ4BD[0]/U_GL
+    58                Net   : sch16t_module_u0/w_init_finish
+                      Driver: sch16t_module_u0/u0_sch16t_init/ro_init_finish_RNI25SC/U_GL
+
+
+
+

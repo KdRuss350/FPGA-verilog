@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>main_prog</design>
+	<target_edif>C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,140 @@
+# Wed Jan 22 16:28:10 2025
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog_scck.rpt 
+Printing clock  summary report in "C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_1 (in view: work.sch16t_init_Z1(verilog)) on net o_state_1 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_2 (in view: work.sch16t_init_Z1(verilog)) on net o_state_2 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_3 (in view: work.sch16t_init_Z1(verilog)) on net o_state_3 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_4 (in view: work.sch16t_init_Z1(verilog)) on net o_state_4 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_5 (in view: work.sch16t_init_Z1(verilog)) on net o_state_5 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_6 (in view: work.sch16t_init_Z1(verilog)) on net o_state_6 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_7 (in view: work.sch16t_init_Z1(verilog)) on net o_state_7 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_8 (in view: work.sch16t_init_Z1(verilog)) on net o_state_8 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_9 (in view: work.sch16t_init_Z1(verilog)) on net o_state_9 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Tristate driver o_state_10 (in view: work.sch16t_init_Z1(verilog)) on net o_state_10 (in view: work.sch16t_init_Z1(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\acc.v":21:0:21:5|Removing sequential instance accover_flag (in view: work.acc_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\acc.v":21:0:21:5|Removing sequential instance accover_flag (in view: work.acc_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\acc.v":21:0:21:5|Removing sequential instance accover_flag (in view: work.acc_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\com_from_fk.v":159:8:159:20|Removing instance XLXI_data_rdy (in view: work.out_filter(verilog)) of type view:work.SRL16E_0(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_init.v":148:0:148:5|Removing sequential instance ro_reset_n (in view: work.sch16t_init_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+
+Clock Summary
+*****************
+
+Start                Requested     Requested     Clock        Clock                   Clock
+Clock                Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------
+main_prog|clk_in     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     990  
+===========================================================================================
+
+@W: MT530 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\uart_receiver.v":56:0:56:5|Found inferred clock main_prog|clk_in which controls 990 sequential elements including out.RECV_FK.STATE_REC[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\synthesis\main_prog.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Encoding state machine STATE_REC[4:0] (in view: work.uart_receiver(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine data_cnt[3:0] (in view: work.out_filter(verilog))
+original code -> new code
+   00000 -> 00
+   00001 -> 01
+   00010 -> 10
+   00011 -> 11
+@N: MO225 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|There are no possible illegal states for state machine data_cnt[3:0] (in view: work.out_filter(verilog)); safe FSM implementation is not required.
+Encoding state machine STATE_OUT[2:0] (in view: work.communication_2M(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine r_st_current[13:0] (in view: work.sch16t_init_Z1(verilog))
+original code -> new code
+   00000001 -> 00000000000001
+   00000010 -> 00000000000010
+   00000011 -> 00000000000100
+   00000100 -> 00000000001000
+   00000101 -> 00000000010000
+   00000110 -> 00000000100000
+   00000111 -> 00000001000000
+   00001000 -> 00000010000000
+   00001001 -> 00000100000000
+   00001010 -> 00001000000000
+   00001011 -> 00010000000000
+   00001100 -> 00100000000000
+   00001101 -> 01000000000000
+   00001110 -> 10000000000000
+Encoding state machine current_state[8:0] (in view: work.spi_master_Z3(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[0] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[1] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[2] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[3] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[20] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[21] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[22] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[23] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[24] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[25] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[26] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[27] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[28] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[29] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[30] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[31] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[15] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[14] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[13] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[12] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[11] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[10] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[9] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[8] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[7] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[6] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 116MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jan 22 16:28:10 2025
+
+###########################################################]

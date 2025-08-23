@@ -1,0 +1,156 @@
+*****************************************************************
+Pin Report - Date: Wed Jan 22 16:30:09 2025 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: main_prog
+Family: ProASIC3
+Die: A3P1000
+Package: 144 FBGA
+*****************************************************************
+Number |Port     |Function       |State      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|---------|---------------|-----------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+A1                GNDQ            Reserved
+A2                VMV0            Reserved
+A3                GAB0/IO02RSB0   Special
+A4                GAB1/IO03RSB0   Special
+A5                IO10RSB0        Unassigned
+A6                GND             Reserved
+A7                IO44RSB0        Unassigned
+A8                VCC             Reserved
+A9                IO69RSB0        Unassigned
+A10               GBA0/IO76RSB0   Special
+A11               GBA1/IO77RSB0   Special
+A12               GNDQ            Reserved
+B1                GAB2/IO224PDB3  Special
+B2                GND             Reserved
+B3                GAA0/IO00RSB0   Special
+B4                GAA1/IO01RSB0   Special
+B5                IO13RSB0        Unassigned
+B6                IO26RSB0        Unassigned
+B7                IO35RSB0        Unassigned
+B8                IO60RSB0        Unassigned
+B9      spi_miso  GBB0/IO74RSB0   Special     LVTTL    ---                ---   None           ---   ---               No           No
+B10               GBB1/IO75RSB0   Special
+B11               GND             Reserved
+B12               VMV1            Reserved
+C1                IO224NDB3       Unassigned
+C2                GFA2/IO206PPB3  Special
+C3                GAC2/IO223PDB3  Special
+C4                VCC             Reserved
+C5                IO16RSB0        Unassigned
+C6      spi_mosi  IO29RSB0        Fixed       LVTTL    12                 High  None           No    35                No           No
+C7                IO32RSB0        Unassigned
+C8                IO63RSB0        Unassigned
+C9                IO66RSB0        Unassigned
+C10               GBA2/IO78PDB1   Special
+C11               IO78NDB1        Unassigned
+C12               GBC2/IO80PPB1   Special
+D1                IO213PDB3       Unassigned
+D2                IO213NDB3       Unassigned
+D3                IO223NDB3       Unassigned
+D4                GAA2/IO225PPB3  Special
+D5                GAC0/IO04RSB0   Special
+D6                GAC1/IO05RSB0   Special
+D7                GBC0/IO72RSB0   Special
+D8                GBC1/IO73RSB0   Special
+D9                GBB2/IO79PDB1   Special
+D10               IO79NDB1        Unassigned
+D11               IO80NPB1        Unassigned
+D12               GCB1/IO92PPB1   Special
+E1                VCC             Reserved
+E2                GFC0/IO209NDB3  Special
+E3                GFC1/IO209PDB3  Special
+E4                VCCIB3          Reserved
+E5                IO225NPB3       Unassigned
+E6                VCCIB0          Reserved
+E7                VCCIB0          Reserved
+E8                GCC1/IO91PDB1   Special
+E9                VCCIB1          Reserved
+E10               VCC             Reserved
+E11               GCA0/IO93NDB1   Special
+E12               IO94NDB1        Unassigned
+F1      clk_in    GFB0/IO208NPB3  Special     LVTTL    ---                ---   None           ---   ---               No           No
+F2                VCOMPLF         Reserved
+F3                GFB1/IO208PPB3  Special
+F4                IO206NPB3       Unassigned
+F5                GND             Reserved
+F6                GND             Reserved
+F7                GND             Reserved
+F8                GCC0/IO91NDB1   Special
+F9                GCB0/IO92NPB1   Special
+F10               GND             Reserved
+F11               GCA1/IO93PDB1   Special
+F12     spi_cs_n  GCA2/IO94PDB1   Special     LVTTL    12                 High  None           No    35                No           No
+G1                GFA1/IO207PPB3  Special
+G2                GND             Reserved
+G3                VCCPLF          Reserved
+G4                GFA0/IO207NPB3  Special
+G5                GND             Reserved
+G6                GND             Reserved
+G7                GND             Reserved
+G8                GDC1/IO111PPB1  Special
+G9                IO96NDB1        Unassigned
+G10               GCC2/IO96PDB1   Special
+G11               IO95NDB1        Unassigned
+G12     spi_sck   GCB2/IO95PDB1   Special     LVTTL    12                 High  None           No    35                No           No
+H1                VCC             Reserved
+H2                GFB2/IO205PDB3  Special
+H3                GFC2/IO204PSB3  Special
+H4                GEC1/IO190PDB3  Special
+H5                VCC             Reserved
+H6                IO105PDB1       Unassigned
+H7                IO105NDB1       Unassigned
+H8                GDB2/IO115RSB2  Special
+H9                GDC0/IO111NPB1  Special
+H10               VCCIB1          Reserved
+H11               IO101PSB1       Unassigned
+H12               VCC             Reserved
+J1                GEB1/IO189PDB3  Special
+J2                IO205NDB3       Unassigned
+J3                VCCIB3          Reserved
+J4                GEC0/IO190NDB3  Special
+J5                IO160RSB2       Unassigned
+J6                IO157RSB2       Unassigned
+J7                VCC             Reserved
+J8                TCK             Reserved
+J9                GDA2/IO114RSB2  Special
+J10               TDO             Reserved
+J11               GDA1/IO113PDB1  Special
+J12     DI        GDB1/IO112PDB1  Special     LVTTL    12                 High  None           No    35                No           No
+K1                GEB0/IO189NDB3  Special
+K2                GEA1/IO188PDB3  Special
+K3                GEA0/IO188NDB3  Special
+K4                GEA2/IO187RSB2  Special
+K5                IO169RSB2       Unassigned
+K6                IO152RSB2       Unassigned
+K7                GND             Reserved
+K8                IO117RSB2       Unassigned
+K9                GDC2/IO116RSB2  Special
+K10               GND             Reserved
+K11               GDA0/IO113NDB1  Special
+K12     RO        GDB0/IO112NDB1  Special     LVTTL    ---                ---   None           ---   ---               No           No
+L1                GND             Reserved
+L2                VMV3            Reserved
+L3                GEB2/IO186RSB2  Special
+L4                IO172RSB2       Unassigned
+L5                VCCIB2          Reserved
+L6                IO153RSB2       Unassigned
+L7                IO144RSB2       Unassigned
+L8                IO140RSB2       Unassigned
+L9                TMS             Reserved
+L10               VJTAG           Reserved
+L11               VMV2            Reserved
+L12               TRST            Reserved
+M1                GNDQ            Reserved
+M2                GEC2/IO185RSB2  Special
+M3                IO173RSB2       Unassigned
+M4                IO168RSB2       Unassigned
+M5                IO161RSB2       Unassigned
+M6                IO156RSB2       Unassigned
+M7                IO145RSB2       Unassigned
+M8                IO141RSB2       Unassigned
+M9                TDI             Reserved
+M10               VCCIB2          Reserved
+M11               VPUMP           Reserved
+M12               GNDQ            Reserved

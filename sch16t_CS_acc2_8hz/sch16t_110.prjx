@@ -1,0 +1,381 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.6.7"
+KEY DEFAULT_IMPORT_LOC "E:\SYQ_APA600\APA600_RefPT_simple\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS8X8M2"
+KEY VendorTechnology_Package "fg144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "main_prog::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\generater_clk.ide_des,ide_des"
+STATE="utd"
+TIME="1736499314"
+SIZE="178"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog.adb,adb"
+STATE="ood"
+TIME="1737534650"
+SIZE="2441216"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog.ide_des,ide_des"
+STATE="utd"
+TIME="1737534650"
+SIZE="1004"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog.pdb,pdb"
+STATE="ood"
+TIME="1737534650"
+SIZE="178565"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_compile_log.rpt,log"
+STATE="utd"
+TIME="1737534516"
+SIZE="8936"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_fp\main_prog.pro,pro"
+STATE="utd"
+TIME="1737534730"
+SIZE="2437"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_fp\projectData\main_prog.pdb,pdb"
+STATE="utd"
+TIME="1737534730"
+SIZE="178565"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1737534609"
+SIZE="2490"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1737534651"
+SIZE="765"
+ENDFILE
+VALUE "<project>\designer\impl1\main_prog_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1737534618"
+SIZE="1196"
+ENDFILE
+VALUE "<project>\hdl\acc.v,hdl"
+STATE="utd"
+TIME="1736765855"
+SIZE="1143"
+ENDFILE
+VALUE "<project>\hdl\communication_2M.v,hdl"
+STATE="utd"
+TIME="1736766021"
+SIZE="11620"
+ENDFILE
+VALUE "<project>\hdl\com_from_fk.v,hdl"
+STATE="utd"
+TIME="1736498460"
+SIZE="3400"
+ENDFILE
+VALUE "<project>\hdl\Global_NET.v,hdl"
+STATE="utd"
+TIME="1736498520"
+SIZE="314"
+ENDFILE
+VALUE "<project>\hdl\main_prog.v,hdl"
+STATE="utd"
+TIME="1736847631"
+SIZE="7176"
+ENDFILE
+VALUE "<project>\hdl\sch16t_init.v,hdl"
+STATE="utd"
+TIME="1737534478"
+SIZE="7157"
+ENDFILE
+VALUE "<project>\hdl\sch16t_loopRead.v,hdl"
+STATE="utd"
+TIME="1736824313"
+SIZE="4044"
+ENDFILE
+VALUE "<project>\hdl\sch16t_module.v,hdl"
+STATE="utd"
+TIME="1736753289"
+SIZE="4574"
+ENDFILE
+VALUE "<project>\hdl\sch16t_rw.v,hdl"
+STATE="utd"
+TIME="1736498358"
+SIZE="5001"
+ENDFILE
+VALUE "<project>\hdl\spi_master.v,hdl"
+STATE="utd"
+TIME="1755951700"
+SIZE="11734"
+ENDFILE
+VALUE "<project>\hdl\SRL16E.v,hdl"
+STATE="utd"
+TIME="1736498378"
+SIZE="999"
+ENDFILE
+VALUE "<project>\hdl\uart_receiver.v,hdl"
+STATE="utd"
+TIME="1736498358"
+SIZE="3040"
+ENDFILE
+VALUE "<project>\smartgen\generater_clk\generater_clk.cxf,actgen_cxf"
+STATE="utd"
+TIME="1736761703"
+SIZE="1500"
+ENDFILE
+VALUE "<project>\smartgen\generater_clk\generater_clk.gen,gen"
+STATE="utd"
+TIME="1736761700"
+SIZE="567"
+PARENT="<project>\smartgen\generater_clk\generater_clk.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\generater_clk\generater_clk.log,log"
+STATE="utd"
+TIME="1736761703"
+SIZE="2774"
+PARENT="<project>\smartgen\generater_clk\generater_clk.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\generater_clk\generater_clk.v,hdl"
+STATE="utd"
+TIME="1736761703"
+SIZE="2697"
+PARENT="<project>\smartgen\generater_clk\generater_clk.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\synthesis\main_prog.edn,syn_edn"
+STATE="ood"
+TIME="1737534502"
+SIZE="1483494"
+ENDFILE
+VALUE "<project>\synthesis\main_prog.so,so"
+STATE="utd"
+TIME="1737534502"
+SIZE="242"
+ENDFILE
+VALUE "<project>\synthesis\main_prog_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1737534502"
+SIZE="404"
+ENDFILE
+VALUE "<project>\synthesis\main_prog_syn.prj,prj"
+STATE="utd"
+TIME="1737534502"
+SIZE="2778"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1736738264"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:main_prog_prgdata_log.rpt
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "acc::work","hdl\acc.v","FALSE","FALSE"
+ENDLIST
+LIST "communication_2M::work","hdl\communication_2M.v","FALSE","FALSE"
+SUBBLOCK "SRL16E::work","hdl\SRL16E.v","FALSE","FALSE"
+ENDLIST
+LIST "generater_clk::work","smartgen\generater_clk\generater_clk.v","TRUE","FALSE"
+ENDLIST
+LIST "Global_NET::work","hdl\Global_NET.v","FALSE","FALSE"
+ENDLIST
+LIST "main_prog::work","hdl\main_prog.v","FALSE","FALSE"
+SUBBLOCK "Global_NET::work","hdl\Global_NET.v","FALSE","FALSE"
+SUBBLOCK "acc::work","hdl\acc.v","FALSE","FALSE"
+SUBBLOCK "communication_2M::work","hdl\communication_2M.v","FALSE","FALSE"
+SUBBLOCK "out_filter::work","hdl\com_from_fk.v","FALSE","FALSE"
+SUBBLOCK "sch16t_module::work","hdl\sch16t_module.v","FALSE","FALSE"
+ENDLIST
+LIST "out_filter::work","hdl\com_from_fk.v","FALSE","FALSE"
+SUBBLOCK "SRL16E::work","hdl\SRL16E.v","FALSE","FALSE"
+SUBBLOCK "uart_receiver::work","hdl\uart_receiver.v","FALSE","FALSE"
+ENDLIST
+LIST "sch16t_init::work","hdl\sch16t_init.v","FALSE","FALSE"
+ENDLIST
+LIST "sch16t_loopRead::work","hdl\sch16t_loopRead.v","FALSE","FALSE"
+ENDLIST
+LIST "sch16t_module::work","hdl\sch16t_module.v","FALSE","FALSE"
+SUBBLOCK "sch16t_init::work","hdl\sch16t_init.v","FALSE","FALSE"
+SUBBLOCK "sch16t_loopRead::work","hdl\sch16t_loopRead.v","FALSE","FALSE"
+SUBBLOCK "sch16t_rw::work","hdl\sch16t_rw.v","FALSE","FALSE"
+ENDLIST
+LIST "sch16t_rw::work","hdl\sch16t_rw.v","FALSE","FALSE"
+SUBBLOCK "spi_master::work","hdl\spi_master.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_master::work","hdl\spi_master.v","FALSE","FALSE"
+ENDLIST
+LIST "SRL16E::work","hdl\SRL16E.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_receiver::work","hdl\uart_receiver.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

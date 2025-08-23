@@ -1,0 +1,1551 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-IVINMLF
+
+# Fri Jan 10 16:42:10 2025
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\Global_NET.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\SRL16E.v" (library work)
+@W: CS222 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\SRL16E.v":48:4:48:10|Ignoring specify block
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\smartgen\generater_clk\generater_clk.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_module.v" (library work)
+@I::"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v" (library work)
+Verilog syntax check successful!
+Selecting top level module main_prog
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1168:7:1168:11|Synthesizing module INBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1959:7:1959:12|Synthesizing module CLKINT in library work.
+
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\Global_NET.v":5:7:5:16|Synthesizing module Global_NET in library work.
+
+@W: CG360 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\Global_NET.v":12:9:12:15|Removing wire GND_net, as there is no assignment to it.
+@W: CG360 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\Global_NET.v":12:18:12:24|Removing wire VCC_net, as there is no assignment to it.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\smartgen\generater_clk\generater_clk.v":5:7:5:19|Synthesizing module generater_clk in library work.
+
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":21:7:21:19|Synthesizing module uart_receiver in library work.
+
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\SRL16E.v":12:7:12:12|Synthesizing module SRL16E in library work.
+
+@W: CG532 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\SRL16E.v":33:4:33:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\SRL16E.v":20:16:20:20|Object count is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":21:7:21:16|Synthesizing module out_filter in library work.
+
+@W: CG133 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":57:10:57:16|Object send_en is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":127:0:127:5|Pruning unused register cnt_rdy. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":59:0:59:5|Pruning unused register recv_err. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":59:0:59:5|Pruning unused register check_byte[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":127:0:127:5|Optimizing register bit rdy1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":127:0:127:5|Pruning unused register rdy1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":127:0:127:5|Pruning unused register state_rdy. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":1:7:1:22|Synthesizing module communication_2M in library work.
+
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":159:22:159:36|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":165:12:165:18|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":166:19:166:32|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":167:20:167:34|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":342:20:342:28|Removing redundant assignment.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Pruning unused register out_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Pruning unused register count_data_delay[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit command[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit command[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Pruning register bit 7 of command[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Pruning register bit 3 of command[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":112:0:112:5|Pruning unused register reset_counter[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":3:7:3:17|Synthesizing module sch16t_init in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	EN_SENSOR=32'b00001101011000000000000000001010
+	SET_EOI=32'b00001101011000000000000000011100
+	SET_FILTER_RATE_XYZ=32'b00001001011000000000000000000110
+	SET_FILTER_ACC=32'b00001001101000000000000000000000
+	READ_SUM_STATUS=32'b00000101000000000000000000000111
+	CLOCK_1MS=32'b00000000000000001001110001000000
+	P_IDLE=32'b00000000000000000000000000000001
+	P_RESET=32'b00000000000000000000000000000010
+	P_WAIT_RESET=32'b00000000000000000000000000000011
+	P_SET_FILTERS=32'b00000000000000000000000000000100
+	P_SET_RATESENS=32'b00000000000000000000000000000101
+	P_SET_ACCSENS=32'b00000000000000000000000000000110
+	P_SET_DRY=32'b00000000000000000000000000000111
+	P_EN_SENSOR=32'b00000000000000000000000000001000
+	P_WAIT_SENSOR=32'b00000000000000000000000000001001
+	P_EOI=32'b00000000000000000000000000001010
+	P_WAIT_EOI=32'b00000000000000000000000000001011
+	P_READ_TWICE=32'b00000000000000000000000000001100
+	P_CHECK=32'b00000000000000000000000000001101
+	P_OVER=32'b00000000000000000000000000001110
+   Generated name = sch16t_init_Z1
+
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":161:26:161:39|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":173:23:173:33|Removing redundant assignment.
+@W: CL271 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":132:0:132:5|Pruning unused bits 31 to 20 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":132:0:132:5|Pruning unused bits 3 to 0 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Optimizing register bit ro_cmd[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Pruning register bits 31 to 28 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Pruning register bit 25 of ro_cmd[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Pruning register bits 20 to 5 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":2:7:2:21|Synthesizing module sch16t_loopRead in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	READ_RATE_X1=32'b00000000010000000000000000000001
+	READ_RATE_Y1=32'b00000000100000000000000000000111
+	READ_RATE_Z1=32'b00000000110000000000000000000101
+	READ_ACC_X1=32'b00000001000000000000000000000000
+	READ_ACC_Y1=32'b00000001010000000000000000000010
+	READ_ACC_Z1=32'b00000001100000000000000000000100
+	READ_TEMPERATURE=32'b00000100000000000000000000000100
+   Generated name = sch16t_loopRead_32s_4194305_8388615_12582917_16777216_20971522_25165828_67108868_Z2
+
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":72:22:72:31|Removing redundant assignment.
+@W: CL271 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":47:0:47:5|Pruning unused bits 31 to 20 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":47:0:47:5|Pruning unused bits 3 to 0 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Optimizing register bit ro_cmd[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Optimizing register bit ro_sens_data[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Pruning register bits 31 to 27 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Pruning register bit 25 of ro_cmd[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":75:0:75:5|Pruning register bits 21 to 3 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":105:0:105:5|Pruning register bits 31 to 16 of ro_sens_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":4:7:4:16|Synthesizing module spi_master in library work.
+
+	CLK_FREQ=32'b00000010011000100101101000000000
+	SCK_FREQ=32'b00000000100110001001011010000000
+	CPOL=32'b00000000000000000000000000000000
+	CPHA=32'b00000000000000000000000000000000
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	NUM_WORDS=32'b00000000000000000000000000000100
+	T_CS_SETUP=32'b00000000000000000000000000101000
+	T_CS_HOLD=32'b00000000000000000000000000101000
+	T_SETUP=32'b00000000000000000000000000001010
+	CLK_PERIOD_NS=32'b00000000000000000000000000011001
+	SCK_PERIOD_NS=32'b00000000000000000000000001100100
+	SCK_HALF_CYCLES=32'b00000000000000000000000000000010
+	SCK_HALF_CYCLES_ACTUAL=32'b00000000000000000000000000000010
+	CS_SETUP_CYCLES=32'b00000000000000000000000000000010
+	CS_HOLD_CYCLES=32'b00000000000000000000000000000010
+	SETUP_CYCLES=32'b00000000000000000000000000000001
+	STATE_IDLE=4'b0000
+	STATE_CS_ASSERT=4'b0001
+	STATE_CS_SETTLE=4'b0010
+	STATE_SEND_BIT=4'b0011
+	STATE_SCK_HIGH=4'b0100
+	STATE_SCK_LOW=4'b0101
+	STATE_CS_DEASSERT=4'b0110
+	STATE_CS_DELAY=4'b0111
+	STATE_TRANSFER_DONE=4'b1000
+   Generated name = spi_master_Z3
+
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":181:19:181:25|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":187:19:187:25|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":199:20:199:27|Removing redundant assignment.
+@W:"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":235:43:235:65|Index into variable lb_data_in could be out of range - a simulation mismatch is possible
+@N: CG793 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":276:12:276:19|Ignoring system task $display
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":279:28:279:39|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":291:23:291:33|Removing redundant assignment.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":193:0:193:5|Pruning unused register word_cnt[2:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":3:7:3:15|Synthesizing module sch16t_rw in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = sch16t_rw_32s
+
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":69:20:69:27|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":81:23:81:33|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":96:18:96:23|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":109:23:109:33|Removing redundant assignment.
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_module.v":3:7:3:19|Synthesizing module sch16t_module in library work.
+
+@N: CG364 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":21:7:21:15|Synthesizing module main_prog in library work.
+
+@W: CG532 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":85:0:85:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":116:7:116:9|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":192:25:192:29|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":225:27:225:37|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":226:27:226:37|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":227:27:227:37|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":228:27:228:36|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":229:27:229:36|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":230:27:230:36|Removing redundant assignment.
+@N: CG179 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":231:27:231:30|Removing redundant assignment.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Pruning unused register x_gyro_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Pruning unused register y_gyro_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Pruning unused register z_gyro_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Pruning unused bits 31 to 16 of temp[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":91:0:91:5|Register bit reset_cnt[15] is always 1.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":91:0:91:5|Pruning register bit 15 of reset_cnt[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":82:0:82:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":60:0:60:5|Optimizing register bit r_read_seq[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":60:0:60:5|Optimizing register bit r_read_seq[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":60:0:60:5|Optimizing register bit r_read_seq[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":60:0:60:5|Optimizing register bit r_read_seq[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":60:0:60:5|Pruning register bits 7 to 4 of r_read_seq[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":47:0:47:5|Pruning unused register ri_ready. Make sure that there are no unused intermediate registers.
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":13:32:13:37|Input port bits 31 to 20 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_loopRead.v":13:32:13:37|Input port bits 3 to 0 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL177 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Sharing sequential element ro_valid. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":105:0:105:5|Pruning register bit 27 of ro_cmd[27:26]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":69:0:69:5|Trying to extract state machine for register r_st_current.
+Extracted state machine for register r_st_current
+State machine has 14 reachable states with original encodings of:
+   00000001
+   00000010
+   00000011
+   00000100
+   00000101
+   00000110
+   00000111
+   00001000
+   00001001
+   00001010
+   00001011
+   00001100
+   00001101
+   00001110
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":14:32:14:37|Input port bits 31 to 20 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":14:32:14:37|Input port bits 3 to 0 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Pruning register bits 11 to 9 of count_clk384[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":271:0:271:5|Trying to extract state machine for register STATE_OUT.
+Extracted state machine for register STATE_OUT
+State machine has 3 reachable states with original encodings of:
+   001
+   010
+   100
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":20:13:20:22|Input port bits 31 to 24 of out_data_x[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":20:24:20:33|Input port bits 31 to 24 of out_data_y[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2M.v":20:35:20:44|Input port bits 31 to 24 of out_data_z[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":59:0:59:5|Trying to extract state machine for register data_cnt.
+Extracted state machine for register data_cnt
+State machine has 4 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+@N: CL201 :"D:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":56:0:56:5|Trying to extract state machine for register STATE_REC.
+Extracted state machine for register STATE_REC
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 10 16:42:11 2025
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 10 16:42:11 2025
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 10 16:42:11 2025
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 10 16:42:13 2025
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Jan 10 16:42:13 2025
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\gyro_project_related\gyro-program-authentic\sch16t_110\synthesis\main_prog_scck.rpt 
+Printing clock  summary report in "D:\gyro_project_related\gyro-program-authentic\sch16t_110\synthesis\main_prog_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+@N: BN115 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":159:8:159:20|Removing instance XLXI_data_rdy (in view: work.out_filter(verilog)) of type view:work.SRL16E_0(verilog) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":145:0:145:5|Removing sequential instance ro_reset_n (in view: work.sch16t_init_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                Requested     Requested     Clock        Clock                   Clock
+Clock                                Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------
+generater_clk|GLA_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     720  
+main_prog|clk_in                     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     131  
+===========================================================================================================
+
+@W: MT530 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":91:0:91:5|Found inferred clock main_prog|clk_in which controls 131 sequential elements including reset_cnt[14:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":56:0:56:5|Found inferred clock generater_clk|GLA_inferred_clock which controls 720 sequential elements including out.RECV_FK.STATE_REC[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\gyro_project_related\gyro-program-authentic\sch16t_110\synthesis\main_prog.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+Encoding state machine STATE_REC[4:0] (in view: work.uart_receiver(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine data_cnt[3:0] (in view: work.out_filter(verilog))
+original code -> new code
+   00000 -> 00
+   00001 -> 01
+   00010 -> 10
+   00011 -> 11
+@N: MO225 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":59:0:59:5|There are no possible illegal states for state machine data_cnt[3:0] (in view: work.out_filter(verilog)); safe FSM implementation is not required.
+Encoding state machine STATE_OUT[2:0] (in view: work.communication_2M(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine r_st_current[13:0] (in view: work.sch16t_init_Z1(verilog))
+original code -> new code
+   00000001 -> 00000000000001
+   00000010 -> 00000000000010
+   00000011 -> 00000000000100
+   00000100 -> 00000000001000
+   00000101 -> 00000000010000
+   00000110 -> 00000000100000
+   00000111 -> 00000001000000
+   00001000 -> 00000010000000
+   00001001 -> 00000100000000
+   00001010 -> 00001000000000
+   00001011 -> 00010000000000
+   00001100 -> 00100000000000
+   00001101 -> 01000000000000
+   00001110 -> 10000000000000
+Encoding state machine current_state[8:0] (in view: work.spi_master_Z3(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance x_acc_data[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance y_acc_data[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Removing sequential instance z_acc_data[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[0] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[1] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[2] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[3] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[20] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[21] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[22] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[23] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[24] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[25] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[26] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[27] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[28] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[29] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[30] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[31] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[15] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[14] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[13] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[12] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[11] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[10] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[9] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[8] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[7] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance data[6] (in view: work.SRL16E_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 113MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 10 16:42:14 2025
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Jan 10 16:42:14 2025
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2m.v":112:0:112:5|Removing sequential instance comm.command[6:4] because it is equivalent to instance comm.command[2:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":180:0:180:5|Found counter in view:work.main_prog(verilog) instance r_cnt[2:0] 
+@N: MF238 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":94:13:94:24|Found 15-bit incrementor, 'reset_cnt_1[14:0]'
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[31] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[30] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[29] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[28] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[27] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[26] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[25] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[24] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[23] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[22] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[21] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[20] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[19] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[18] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[17] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit x_acc_data[16] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[31] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[30] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[29] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[28] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[27] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[26] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[25] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[24] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[23] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[22] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[21] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[20] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[19] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[18] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[17] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit y_acc_data[16] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[31] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[30] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[29] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[28] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[27] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[26] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[25] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[24] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[23] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[22] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[21] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[20] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[19] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[18] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[17] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\main_prog.v":196:0:196:5|Register bit z_acc_data[16] (in view view:work.main_prog(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine data_cnt[3:0] (in view: work.out_filter(verilog))
+original code -> new code
+   00000 -> 00
+   00001 -> 01
+   00010 -> 10
+   00011 -> 11
+@N: MO225 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\com_from_fk.v":59:0:59:5|There are no possible illegal states for state machine data_cnt[3:0] (in view: work.out_filter(verilog)); safe FSM implementation is not required.
+@N: MF176 |Default generator successful 
+Encoding state machine STATE_REC[4:0] (in view: work.uart_receiver(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":56:0:56:5|Found counter in view:work.uart_receiver(verilog) instance rec_cnt3[11:0] 
+@N: MF238 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":120:17:120:32|Found 4-bit incrementor, 'un5_rec_cnt2[3:0]'
+@N: MF238 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\uart_receiver.v":92:18:92:33|Found 12-bit incrementor, 'un5_rec_cnt1[11:0]'
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2m.v":112:0:112:5|Found counter in view:work.communication_2M(verilog) instance command_counter[15:0] 
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2m.v":271:0:271:5|Found counter in view:work.communication_2M(verilog) instance count_out[7:0] 
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\communication_2m.v":271:0:271:5|Found counter in view:work.communication_2M(verilog) instance count_clk384[8:0] 
+Encoding state machine STATE_OUT[2:0] (in view: work.communication_2M(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+@N: MF176 |Default generator successful 
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[15] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[14] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[13] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[12] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[11] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[10] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[9] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[8] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[7] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\srl16e.v":41:4:41:9|Removing sequential instance XLXI_comunication.data[6] (in view: work.communication_2M(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_init.v":75:0:75:5|Found counter in view:work.sch16t_init_Z1(verilog) instance r_st_cnt[23:0] 
+Encoding state machine r_st_current[13:0] (in view: work.sch16t_init_Z1(verilog))
+original code -> new code
+   00000001 -> 00000000000001
+   00000010 -> 00000000000010
+   00000011 -> 00000000000100
+   00000100 -> 00000000001000
+   00000101 -> 00000000010000
+   00000110 -> 00000000100000
+   00000111 -> 00000001000000
+   00001000 -> 00000010000000
+   00001001 -> 00000100000000
+   00001010 -> 00001000000000
+   00001011 -> 00010000000000
+   00001100 -> 00100000000000
+   00001101 -> 01000000000000
+   00001110 -> 10000000000000
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[0] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[1] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[2] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[3] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[20] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[21] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[22] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[23] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[24] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[25] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[26] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[27] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[28] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[29] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[30] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":113:0:113:5|Removing sequential instance ro_data[31] (in view: work.sch16t_rw_32s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":165:0:165:5|Found counter in view:work.spi_master_Z3(verilog) instance cycle_cnt[15:0] 
+@N: MO231 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":177:0:177:5|Found counter in view:work.spi_master_Z3(verilog) instance bit_cnt[5:0] 
+Encoding state machine current_state[8:0] (in view: work.spi_master_Z3(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[5] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[6] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[7] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[8] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[9] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[10] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[11] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[12] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[13] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[14] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[15] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[16] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[17] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[18] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[19] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[20] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[25] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[28] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[29] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[30] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[31] is reduced to a combinational gate by constant propagation. 
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[29] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[20] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[17] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[14] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":84:0:84:5|Register bit r_send[8] (in view view:work.sch16t_rw_32s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 115MB peak: 115MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 123MB)
+
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[0] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[1] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[2] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[3] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[20] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[21] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[22] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[23] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":285:0:285:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.lb_data_out[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[31] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[30] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[29] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[28] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[27] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[26] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[25] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[24] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[23] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[22] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[21] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\spi_master.v":269:0:269:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.u0_spi_master.shift_in_reg[20] (in view: work.main_prog(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BN132 :"d:\gyro_project_related\gyro-program-authentic\sch16t_110\hdl\sch16t_rw.v":44:0:44:5|Removing sequential instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[27] because it is equivalent to instance sch16t_module_u0.u0_sch16t_rw.ri_cmd[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 123MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 123MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 121MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 122MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 151MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                             Fanout, notes                   
+---------------------------------------------------------------------------------------
+Global_rst.CLKINT / Y                                  694 : 694 asynchronous set/reset
+sch16t_module_u0.u0_sch16t_init.ro_init_finish / Q     66                              
+sch16t_module_u0.u0_sch16t_rw.r_send_valid_2 / Y       28                              
+comm.STATE_OUT[0] / Q                                  244                             
+comm.G_3 / Y                                           242                             
+sch16t_module_u0.u0_sch16t_rw.r_send7 / Y              27                              
+=======================================================================================
+
+@N: FP130 |Promoting Net comm.STATE_OUT[0] on CLKINT  I_179 
+@N: FP130 |Promoting Net comm.N_1154 on CLKINT  I_180 
+@N: FP130 |Promoting Net clk_oscillator on CLKINT  I_181 
+@N: FP130 |Promoting Net sch16t_module_u0.w_init_finish on CLKINT  I_182 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 154MB peak: 159MB)
+
+Replicating Combinational Instance sch16t_module_u0.u0_sch16t_rw.r_send7, fanout 27 segments 2
+Replicating Combinational Instance sch16t_module_u0.u0_sch16t_rw.r_send_valid_2, fanout 28 segments 2
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 2 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 154MB peak: 159MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 83 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 633 clock pin(s) of sequential element(s)
+0 instances converted, 633 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       clk_in              port                   83         x_acc_data[10] 
+=======================================================================================
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clksum.Core         PLL                    633        comm.command[2]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 151MB peak: 159MB)
+
+Writing Analyst data base D:\gyro_project_related\gyro-program-authentic\sch16t_110\synthesis\synwork\main_prog_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 152MB peak: 159MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 153MB peak: 159MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 152MB peak: 159MB)
+
+@W: MT420 |Found inferred clock main_prog|clk_in with period 10.00ns. Please declare a user-defined clock on object "p:clk_in"
+@W: MT420 |Found inferred clock generater_clk|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:clksum.GLA"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 10 16:42:21 2025
+#
+
+
+Top view:               main_prog
+Library name:           PA3
+Operating conditions:   COMWC-1 ( T = 70.0, V = 1.42, P = 1.48, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -8.167
+
+                                     Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                       Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------
+generater_clk|GLA_inferred_clock     100.0 MHz     55.0 MHz      10.000        18.167        -8.167     inferred     Inferred_clkgroup_1
+main_prog|clk_in                     100.0 MHz     125.6 MHz     10.000        7.959         2.041      inferred     Inferred_clkgroup_0
+========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                          Ending                            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+main_prog|clk_in                  main_prog|clk_in                  |  10.000      2.041   |  No paths    -      |  No paths    -      |  No paths    -    
+main_prog|clk_in                  generater_clk|GLA_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+generater_clk|GLA_inferred_clock  main_prog|clk_in                  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+generater_clk|GLA_inferred_clock  generater_clk|GLA_inferred_clock  |  10.000      -8.167  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: generater_clk|GLA_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                          Arrival           
+Instance                     Reference                            Type         Pin     Net                     Time        Slack 
+                             Clock                                                                                               
+---------------------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]      generater_clk|GLA_inferred_clock     DFN1C1       Q       command_counter[0]      0.627       -8.167
+comm.command_counter[1]      generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[1]      0.627       -7.424
+comm.command[0]              generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command[0]              0.627       -7.415
+comm.command_counter[8]      generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[8]      0.627       -7.003
+comm.command[2]              generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command[2]              0.627       -6.845
+comm.command[1]              generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command[1]              0.627       -6.733
+comm.command_counter[9]      generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[9]      0.627       -6.615
+comm.command_counter[12]     generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[12]     0.627       -6.500
+comm.command_counter[10]     generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[10]     0.627       -6.463
+comm.command_counter[5]      generater_clk|GLA_inferred_clock     DFN1E1C1     Q       command_counter[5]      0.627       -6.106
+=================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                Starting                                                                        Required           
+Instance                                        Reference                            Type         Pin     Net                   Time         Slack 
+                                                Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+comm.data_pc241[240]                            generater_clk|GLA_inferred_clock     DFN1E1C1     D       data_pc241_6[240]     9.542        -8.167
+comm.data_pc241[239]                            generater_clk|GLA_inferred_clock     DFN1E1C1     D       data_pc241_6[239]     9.571        -6.992
+comm.data_pc241[238]                            generater_clk|GLA_inferred_clock     DFN1E1C1     D       data_pc241_6[238]     9.571        -6.118
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[0]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_139                 9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[1]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_73                  9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[2]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_71                  9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[3]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_69                  9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[4]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_67                  9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[5]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_65                  9.542        -6.038
+sch16t_module_u0.u0_sch16t_init.r_st_cnt[6]     generater_clk|GLA_inferred_clock     DFN1C1       D       N_63                  9.542        -6.038
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      17.708
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -8.167
+
+    Number of logic level(s):                16
+    Starting point:                          comm.command_counter[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]                               DFN1C1       Q        Out     0.627     0.627       -         
+command_counter[0]                                    Net          -        -       1.454     -           10        
+comm.command_counter_RNIV4TM[0]                       XOR2         A        In      -         2.081       -         
+comm.command_counter_RNIV4TM[0]                       XOR2         Y        Out     0.415     2.496       -         
+sum_N_9                                               Net          -        -       1.007     -           4         
+comm.command_RNIEU1I1[0]                              XOR2         B        In      -         3.504       -         
+comm.command_RNIEU1I1[0]                              XOR2         Y        Out     0.797     4.301       -         
+N_1110                                                Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2_0     OA1A         A        In      -         4.987       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2_0     OA1A         Y        Out     0.541     5.528       -         
+ADD_8x8_fast_I43_Y_i_o2_0                             Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          A        In      -         5.857       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          Y        Out     0.432     6.288       -         
+N_21                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        A        In      -         6.617       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        Y        Out     0.438     7.054       -         
+N_53                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         C        In      -         7.328       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         Y        Out     0.538     7.866       -         
+N_23                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         A        In      -         8.195       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         Y        Out     0.904     9.098       -         
+N_25                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         A        In      -         9.427       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         Y        Out     0.346     9.773       -         
+N_20                                                  Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         A        In      -         10.459      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         Y        Out     0.541     11.000      -         
+ADD_8x8_fast_I47_Y_i_o2_0                             Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          A        In      -         11.328      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          Y        Out     0.432     11.760      -         
+N_22                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        B        In      -         12.089      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        Y        Out     0.534     12.622      -         
+N_56_0                                                Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          C        In      -         12.896      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          Y        Out     0.538     13.434      -         
+N_24                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         C        In      -         13.763      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         Y        Out     0.600     14.363      -         
+N_18                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        C        In      -         14.637      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        Y        Out     0.839     15.475      -         
+sum_check_temp[7]                                     Net          -        -       0.328     -           2         
+comm.data_pc241_RNO_0[240]                            XOR3         C        In      -         15.803      -         
+comm.data_pc241_RNO_0[240]                            XOR3         Y        Out     0.839     16.642      -         
+un1_check_sum_check                                   Net          -        -       0.274     -           1         
+comm.data_pc241_RNO[240]                              MX2B         B        In      -         16.916      -         
+comm.data_pc241_RNO[240]                              MX2B         Y        Out     0.519     17.435      -         
+data_pc241_6[240]                                     Net          -        -       0.274     -           1         
+comm.data_pc241[240]                                  DFN1E1C1     D        In      -         17.708      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 18.167 is 10.338(56.9%) logic and 7.828(43.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      17.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.072
+
+    Number of logic level(s):                16
+    Starting point:                          comm.command_counter[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]                               DFN1C1       Q        Out     0.627     0.627       -         
+command_counter[0]                                    Net          -        -       1.454     -           10        
+comm.command_counter_RNIV4TM[0]                       XOR2         A        In      -         2.081       -         
+comm.command_counter_RNIV4TM[0]                       XOR2         Y        Out     0.415     2.496       -         
+sum_N_9                                               Net          -        -       1.007     -           4         
+comm.command_RNIEU1I1[0]                              XOR2         B        In      -         3.504       -         
+comm.command_RNIEU1I1[0]                              XOR2         Y        Out     0.797     4.301       -         
+N_1110                                                Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_a2       NOR2A        B        In      -         4.987       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_a2       NOR2A        Y        Out     0.328     5.315       -         
+N_46                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          B        In      -         5.644       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          Y        Out     0.550     6.194       -         
+N_21                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        A        In      -         6.522       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        Y        Out     0.438     6.960       -         
+N_53                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         C        In      -         7.233       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         Y        Out     0.538     7.772       -         
+N_23                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         A        In      -         8.100       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         Y        Out     0.904     9.004       -         
+N_25                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         A        In      -         9.332       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         Y        Out     0.346     9.678       -         
+N_20                                                  Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         A        In      -         10.364      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         Y        Out     0.541     10.905      -         
+ADD_8x8_fast_I47_Y_i_o2_0                             Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          A        In      -         11.234      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          Y        Out     0.432     11.666      -         
+N_22                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        B        In      -         11.994      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        Y        Out     0.534     12.528      -         
+N_56_0                                                Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          C        In      -         12.801      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          Y        Out     0.538     13.340      -         
+N_24                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         C        In      -         13.668      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         Y        Out     0.600     14.268      -         
+N_18                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        C        In      -         14.542      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        Y        Out     0.839     15.380      -         
+sum_check_temp[7]                                     Net          -        -       0.328     -           2         
+comm.data_pc241_RNO_0[240]                            XOR3         C        In      -         15.709      -         
+comm.data_pc241_RNO_0[240]                            XOR3         Y        Out     0.839     16.547      -         
+un1_check_sum_check                                   Net          -        -       0.274     -           1         
+comm.data_pc241_RNO[240]                              MX2B         B        In      -         16.821      -         
+comm.data_pc241_RNO[240]                              MX2B         Y        Out     0.519     17.340      -         
+data_pc241_6[240]                                     Net          -        -       0.274     -           1         
+comm.data_pc241[240]                                  DFN1E1C1     D        In      -         17.613      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 18.072 is 10.244(56.7%) logic and 7.828(43.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      17.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.072
+
+    Number of logic level(s):                16
+    Starting point:                          comm.command_counter[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]                               DFN1C1       Q        Out     0.627     0.627       -         
+command_counter[0]                                    Net          -        -       1.454     -           10        
+comm.command_counter_RNIV4TM[0]                       XOR2         A        In      -         2.081       -         
+comm.command_counter_RNIV4TM[0]                       XOR2         Y        Out     0.415     2.496       -         
+sum_N_9                                               Net          -        -       1.007     -           4         
+comm.command_RNIEU1I1[0]                              XOR2         B        In      -         3.504       -         
+comm.command_RNIEU1I1[0]                              XOR2         Y        Out     0.797     4.301       -         
+N_1110                                                Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2_0     OA1A         A        In      -         4.987       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2_0     OA1A         Y        Out     0.541     5.528       -         
+ADD_8x8_fast_I43_Y_i_o2_0                             Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          A        In      -         5.857       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          Y        Out     0.432     6.288       -         
+N_21                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        A        In      -         6.617       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        Y        Out     0.438     7.054       -         
+N_53                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         C        In      -         7.328       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         Y        Out     0.538     7.866       -         
+N_23                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         A        In      -         8.195       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         Y        Out     0.904     9.098       -         
+N_25                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         A        In      -         9.427       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         Y        Out     0.346     9.773       -         
+N_20                                                  Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_a2_0     NOR2A        B        In      -         10.459      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_a2_0     NOR2A        Y        Out     0.328     10.787      -         
+N_50                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          B        In      -         11.115      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          Y        Out     0.550     11.666      -         
+N_22                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        B        In      -         11.994      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        Y        Out     0.534     12.528      -         
+N_56_0                                                Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          C        In      -         12.801      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          Y        Out     0.538     13.340      -         
+N_24                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         C        In      -         13.668      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         Y        Out     0.600     14.268      -         
+N_18                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        C        In      -         14.542      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        Y        Out     0.839     15.380      -         
+sum_check_temp[7]                                     Net          -        -       0.328     -           2         
+comm.data_pc241_RNO_0[240]                            XOR3         C        In      -         15.709      -         
+comm.data_pc241_RNO_0[240]                            XOR3         Y        Out     0.839     16.547      -         
+un1_check_sum_check                                   Net          -        -       0.274     -           1         
+comm.data_pc241_RNO[240]                              MX2B         B        In      -         16.821      -         
+comm.data_pc241_RNO[240]                              MX2B         Y        Out     0.519     17.340      -         
+data_pc241_6[240]                                     Net          -        -       0.274     -           1         
+comm.data_pc241[240]                                  DFN1E1C1     D        In      -         17.613      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 18.072 is 10.244(56.7%) logic and 7.828(43.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      17.519
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -7.977
+
+    Number of logic level(s):                16
+    Starting point:                          comm.command_counter[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]                               DFN1C1       Q        Out     0.627     0.627       -         
+command_counter[0]                                    Net          -        -       1.454     -           10        
+comm.command_counter_RNIV4TM[0]                       XOR2         A        In      -         2.081       -         
+comm.command_counter_RNIV4TM[0]                       XOR2         Y        Out     0.415     2.496       -         
+sum_N_9                                               Net          -        -       1.007     -           4         
+comm.command_RNIEU1I1[0]                              XOR2         B        In      -         3.504       -         
+comm.command_RNIEU1I1[0]                              XOR2         Y        Out     0.797     4.301       -         
+N_1110                                                Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_a2       NOR2A        B        In      -         4.987       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_a2       NOR2A        Y        Out     0.328     5.315       -         
+N_46                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          B        In      -         5.644       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I43_Y_i_o2       OR2          Y        Out     0.550     6.194       -         
+N_21                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        A        In      -         6.522       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_a2_0     NOR2B        Y        Out     0.438     6.960       -         
+N_53                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         C        In      -         7.233       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I44_Y_i_o2       AO1A         Y        Out     0.538     7.772       -         
+N_23                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         A        In      -         8.100       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I45_Y_i_o2       AO13         Y        Out     0.904     9.004       -         
+N_25                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         A        In      -         9.332       -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I46_Y_i_o2       AO18         Y        Out     0.346     9.678       -         
+N_20                                                  Net          -        -       0.686     -           3         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_a2_0     NOR2A        B        In      -         10.364      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_a2_0     NOR2A        Y        Out     0.328     10.692      -         
+N_50                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          B        In      -         11.021      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          Y        Out     0.550     11.571      -         
+N_22                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        B        In      -         11.899      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        Y        Out     0.534     12.433      -         
+N_56_0                                                Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          C        In      -         12.707      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          Y        Out     0.538     13.245      -         
+N_24                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         C        In      -         13.573      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         Y        Out     0.600     14.174      -         
+N_18                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        C        In      -         14.447      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        Y        Out     0.839     15.286      -         
+sum_check_temp[7]                                     Net          -        -       0.328     -           2         
+comm.data_pc241_RNO_0[240]                            XOR3         C        In      -         15.614      -         
+comm.data_pc241_RNO_0[240]                            XOR3         Y        Out     0.839     16.453      -         
+un1_check_sum_check                                   Net          -        -       0.274     -           1         
+comm.data_pc241_RNO[240]                              MX2B         B        In      -         16.726      -         
+comm.data_pc241_RNO[240]                              MX2B         Y        Out     0.519     17.245      -         
+data_pc241_6[240]                                     Net          -        -       0.274     -           1         
+comm.data_pc241[240]                                  DFN1E1C1     D        In      -         17.519      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 17.977 is 10.149(56.5%) logic and 7.828(43.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      17.265
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -7.723
+
+    Number of logic level(s):                16
+    Starting point:                          comm.command_counter[0] / Q
+    Ending point:                            comm.data_pc241[240] / D
+    The start point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            generater_clk|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+comm.command_counter[0]                               DFN1C1       Q        Out     0.627     0.627       -         
+command_counter[0]                                    Net          -        -       1.454     -           10        
+comm.command_counter_RNIV4TM[0]                       XOR2         A        In      -         2.081       -         
+comm.command_counter_RNIV4TM[0]                       XOR2         Y        Out     0.415     2.496       -         
+sum_N_9                                               Net          -        -       1.007     -           4         
+comm.command_counter_RNIMTTS2_0[0]                    NOR2A        B        In      -         3.504       -         
+comm.command_counter_RNIMTTS2_0[0]                    NOR2A        Y        Out     0.328     3.832       -         
+command_counter_RNIMTTS2_0[0]                         Net          -        -       0.274     -           1         
+comm.command_counter_RNIJBKS5[0]                      MX2B         S        In      -         4.106       -         
+comm.command_counter_RNIJBKS5[0]                      MX2B         Y        Out     0.408     4.514       -         
+sum_i3_mux                                            Net          -        -       0.274     -           1         
+comm.command_counter_RNITU5HA[0]                      MIN3         A        In      -         4.787       -         
+comm.command_counter_RNITU5HA[0]                      MIN3         Y        Out     0.337     5.125       -         
+N_904                                                 Net          -        -       0.328     -           2         
+comm.command_counter_RNIA23HD[0]                      XOR2         B        In      -         5.453       -         
+comm.command_counter_RNIA23HD[0]                      XOR2         Y        Out     0.797     6.250       -         
+N_931_7                                               Net          -        -       0.274     -           1         
+comm.command_RNIAR57G_0[1]                            XOR2         A        In      -         6.524       -         
+comm.command_RNIAR57G_0[1]                            XOR2         Y        Out     0.415     6.939       -         
+N_931                                                 Net          -        -       1.007     -           4         
+comm.command_RNIFIM611[1]                             AX1          B        In      -         7.946       -         
+comm.command_RNIFIM611[1]                             AX1          Y        Out     0.825     8.771       -         
+sum_check_temp_278_0                                  Net          -        -       0.274     -           1         
+comm.command_RNINDDO32[2]                             XOR3         C        In      -         9.045       -         
+comm.command_RNINDDO32[2]                             XOR3         Y        Out     0.839     9.883       -         
+N_963                                                 Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         C        In      -         10.212      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2_0     OA1A         Y        Out     0.345     10.556      -         
+ADD_8x8_fast_I47_Y_i_o2_0                             Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          A        In      -         10.885      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I47_Y_i_o2       OR2          Y        Out     0.432     11.317      -         
+N_22                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        B        In      -         11.645      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_a2_0     NOR2B        Y        Out     0.534     12.179      -         
+N_56_0                                                Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          C        In      -         12.452      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i_o2_0     AO1          Y        Out     0.538     12.991      -         
+N_24                                                  Net          -        -       0.328     -           2         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         C        In      -         13.319      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I34_Y_i          MIN3         Y        Out     0.600     13.919      -         
+N_18                                                  Net          -        -       0.274     -           1         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        C        In      -         14.193      -         
+comm.sum_check_temp_0_0.ADD_8x8_fast_I49_Y            XNOR3        Y        Out     0.839     15.031      -         
+sum_check_temp[7]                                     Net          -        -       0.328     -           2         
+comm.data_pc241_RNO_0[240]                            XOR3         C        In      -         15.360      -         
+comm.data_pc241_RNO_0[240]                            XOR3         Y        Out     0.839     16.198      -         
+un1_check_sum_check                                   Net          -        -       0.274     -           1         
+comm.data_pc241_RNO[240]                              MX2B         B        In      -         16.472      -         
+comm.data_pc241_RNO[240]                              MX2B         Y        Out     0.519     16.991      -         
+data_pc241_6[240]                                     Net          -        -       0.274     -           1         
+comm.data_pc241[240]                                  DFN1E1C1     D        In      -         17.265      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 17.723 is 10.096(57.0%) logic and 7.627(43.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: main_prog|clk_in
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                Arrival          
+Instance          Reference            Type     Pin     Net               Time        Slack
+                  Clock                                                                    
+-------------------------------------------------------------------------------------------
+reset_cnt[1]      main_prog|clk_in     DFN1     Q       reset_cnt[1]      0.627       2.041
+reset_cnt[2]      main_prog|clk_in     DFN1     Q       reset_cnt[2]      0.627       2.260
+reset_cnt[10]     main_prog|clk_in     DFN1     Q       reset_cnt[10]     0.627       2.279
+reset_cnt[8]      main_prog|clk_in     DFN1     Q       reset_cnt[8]      0.627       2.282
+reset_cnt[7]      main_prog|clk_in     DFN1     Q       reset_cnt[7]      0.627       2.397
+reset_cnt[9]      main_prog|clk_in     DFN1     Q       reset_cnt[9]      0.627       2.400
+reset_cnt[0]      main_prog|clk_in     DFN1     Q       reset_cnt[0]      0.627       2.824
+reset_cnt[3]      main_prog|clk_in     DFN1     Q       reset_cnt[3]      0.494       2.935
+reset_cnt[4]      main_prog|clk_in     DFN1     Q       reset_cnt[4]      0.627       3.061
+reset_cnt[5]      main_prog|clk_in     DFN1     Q       reset_cnt[5]      0.627       3.252
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                  Required          
+Instance          Reference            Type     Pin     Net                 Time         Slack
+                  Clock                                                                       
+----------------------------------------------------------------------------------------------
+rst               main_prog|clk_in     DFN1     D       rst_1               9.542        2.041
+reset_cnt[1]      main_prog|clk_in     DFN1     D       reset_cnt_5[1]      9.512        2.793
+reset_cnt[2]      main_prog|clk_in     DFN1     D       reset_cnt_5[2]      9.512        2.793
+reset_cnt[3]      main_prog|clk_in     DFN1     D       reset_cnt_5[3]      9.512        2.793
+reset_cnt[4]      main_prog|clk_in     DFN1     D       reset_cnt_5[4]      9.512        2.793
+reset_cnt[0]      main_prog|clk_in     DFN1     D       reset_cnt_5[0]      9.542        2.872
+reset_cnt[12]     main_prog|clk_in     DFN1     D       reset_cnt_1[12]     9.542        2.990
+reset_cnt[11]     main_prog|clk_in     DFN1     D       reset_cnt_1[11]     9.542        3.129
+reset_cnt[13]     main_prog|clk_in     DFN1     D       reset_cnt_1[13]     9.542        3.129
+reset_cnt[14]     main_prog|clk_in     DFN1     D       reset_cnt_1[14]     9.542        3.129
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.458
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.542
+
+    - Propagation time:                      7.501
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.041
+
+    Number of logic level(s):                6
+    Starting point:                          reset_cnt[1] / Q
+    Ending point:                            rst / D
+    The start point is clocked by            main_prog|clk_in [rising] on pin CLK
+    The end   point is clocked by            main_prog|clk_in [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                         Type      Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+reset_cnt[1]                 DFN1      Q        Out     0.627     0.627       -         
+reset_cnt[1]                 Net       -        -       1.211     -           6         
+out.un1_reset_cnt_1lt3_0     OR2B      B        In      -         1.838       -         
+out.un1_reset_cnt_1lt3_0     OR2B      Y        Out     0.534     2.372       -         
+un1_reset_cnt_1lt3_0         Net       -        -       0.274     -           1         
+out.un1_reset_cnt_1lt3       OR3B      C        In      -         2.646       -         
+out.un1_reset_cnt_1lt3       OR3B      Y        Out     0.580     3.225       -         
+un1_reset_cnt_1lto3          Net       -        -       0.274     -           1         
+out.un1_reset_cnt_1lto11     NOR3C     C        In      -         3.499       -         
+out.un1_reset_cnt_1lto11     NOR3C     Y        Out     0.566     4.066       -         
+un1_reset_cnt_1lt14          Net       -        -       0.274     -           1         
+out.un1_reset_cnt_1lto14     OR2       B        In      -         4.339       -         
+out.un1_reset_cnt_1lto14     OR2       Y        Out     0.438     4.777       -         
+un1_reset_cnt_1              Net       -        -       1.211     -           6         
+out.rst_0                    MX2       S        In      -         5.988       -         
+out.rst_0                    MX2       Y        Out     0.408     6.396       -         
+N_48                         Net       -        -       0.274     -           1         
+out.rst_1                    AO1       C        In      -         6.670       -         
+out.rst_1                    AO1       Y        Out     0.558     7.227       -         
+rst_1                        Net       -        -       0.274     -           1         
+rst                          DFN1      D        In      -         7.501       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.959 is 4.169(52.4%) logic and 3.791(47.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 152MB peak: 159MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 152MB peak: 159MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_FBGA144_-1
+Report for cell main_prog.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     6      1.0        6.0
+              AND3    28      1.0       28.0
+               AO1    20      1.0       20.0
+              AO13     8      1.0        8.0
+              AO16     1      1.0        1.0
+              AO18     4      1.0        4.0
+              AO1A    22      1.0       22.0
+              AO1C    10      1.0       10.0
+              AOI1     1      1.0        1.0
+             AOI1B     4      1.0        4.0
+               AX1     5      1.0        5.0
+              AX1A     4      1.0        4.0
+              AX1C     8      1.0        8.0
+              AX1D     8      1.0        8.0
+              AX1E     2      1.0        2.0
+             AXOI3     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+            CLKINT     5      0.0        0.0
+               GND    12      0.0        0.0
+               INV     6      1.0        6.0
+              MAJ3    54      1.0       54.0
+              MIN3     6      1.0        6.0
+               MX2   184      1.0      184.0
+              MX2A     1      1.0        1.0
+              MX2B    18      1.0       18.0
+              MX2C     2      1.0        2.0
+              NOR2    49      1.0       49.0
+             NOR2A   140      1.0      140.0
+             NOR2B   170      1.0      170.0
+              NOR3     8      1.0        8.0
+             NOR3A    40      1.0       40.0
+             NOR3B    29      1.0       29.0
+             NOR3C    41      1.0       41.0
+               OA1    14      1.0       14.0
+              OA1A     7      1.0        7.0
+              OA1B     2      1.0        2.0
+              OA1C     4      1.0        4.0
+              OAI1     3      1.0        3.0
+               OR2    98      1.0       98.0
+              OR2A    35      1.0       35.0
+              OR2B    14      1.0       14.0
+               OR3    30      1.0       30.0
+              OR3A     7      1.0        7.0
+              OR3B     9      1.0        9.0
+              OR3C     3      1.0        3.0
+               PLL     1      0.0        0.0
+               VCC    12      0.0        0.0
+               XA1    21      1.0       21.0
+              XA1A     2      1.0        2.0
+              XA1B     6      1.0        6.0
+              XA1C    13      1.0       13.0
+              XAI1     1      1.0        1.0
+             XNOR2     6      1.0        6.0
+             XNOR3     8      1.0        8.0
+               XO1     2      1.0        2.0
+              XO1A     3      1.0        3.0
+              XOR2   183      1.0      183.0
+              XOR3   112      1.0      112.0
+
+
+              DFN1    22      1.0       22.0
+            DFN1C1   193      1.0      193.0
+          DFN1E0C1    34      1.0       34.0
+          DFN1E0P1     2      1.0        2.0
+          DFN1E1C1   453      1.0      453.0
+          DFN1E1P1     2      1.0        2.0
+            DFN1P1    10      1.0       10.0
+                   -----          ----------
+             TOTAL  2210              2180.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     3
+            OUTBUF     4
+                   -----
+             TOTAL     7
+
+
+Core Cells         : 2180 of 24576 (9%)
+IO Cells           : 7
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 29MB peak: 159MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Fri Jan 10 16:42:21 2025
+
+###########################################################]

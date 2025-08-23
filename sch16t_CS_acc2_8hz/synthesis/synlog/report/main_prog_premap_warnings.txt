@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\liushuo\desktop\vivado_fam\sch16t_cs_acc2_8hz\hdl\uart_receiver.v":56:0:56:5|Found inferred clock main_prog|clk_in which controls 990 sequential elements including out.RECV_FK.STATE_REC[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 

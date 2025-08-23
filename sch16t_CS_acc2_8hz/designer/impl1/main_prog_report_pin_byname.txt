@@ -1,0 +1,19 @@
+*****************************************************************
+Pin Report - Date: Wed Jan 22 16:30:08 2025 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: main_prog
+Family: ProASIC3
+Die: A3P1000
+Package: 144 FBGA
+*****************************************************************
+Port     |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+---------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+clk_in    F1   Yes    GFB0/IO208NPB3  LVTTL    ---                ---   None           ---   ---               No           No
+DI        J12  Yes    GDB1/IO112PDB1  LVTTL    12                 High  None           No    35                No           No
+RO        K12  Yes    GDB0/IO112NDB1  LVTTL    ---                ---   None           ---   ---               No           No
+spi_cs_n  F12  Yes    GCA2/IO94PDB1   LVTTL    12                 High  None           No    35                No           No
+spi_miso  B9   Yes    GBB0/IO74RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+spi_mosi  C6   Yes    IO29RSB0        LVTTL    12                 High  None           No    35                No           No
+spi_sck   G12  Yes    GCB2/IO95PDB1   LVTTL    12                 High  None           No    35                No           No

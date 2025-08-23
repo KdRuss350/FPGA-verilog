@@ -1,0 +1,365 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\Global_NET.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v" (library work)
+@W: CS222 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v":48:4:48:10|Ignoring specify block
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\uart_receiver.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v" (library work)
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_module.v" (library work)
+@W: CG921 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_module.v":29:28:29:38|w_loop_read is already declared in this scope.
+@I::"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v" (library work)
+Verilog syntax check successful!
+File C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v changed - recompiling
+Selecting top level module main_prog
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1168:7:1168:11|Synthesizing module INBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1959:7:1959:12|Synthesizing module CLKINT in library work.
+
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\Global_NET.v":5:7:5:16|Synthesizing module Global_NET in library work.
+
+@W: CG360 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\Global_NET.v":12:9:12:15|Removing wire GND_net, as there is no assignment to it.
+@W: CG360 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\Global_NET.v":12:18:12:24|Removing wire VCC_net, as there is no assignment to it.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\uart_receiver.v":21:7:21:19|Synthesizing module uart_receiver in library work.
+
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v":12:7:12:12|Synthesizing module SRL16E in library work.
+
+@W: CG532 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v":33:4:33:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v":20:16:20:20|Object count is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":21:7:21:16|Synthesizing module out_filter in library work.
+
+@W: CG133 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":57:10:57:16|Object send_en is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":127:0:127:5|Pruning unused register cnt_rdy. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|Pruning unused register recv_err. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|Pruning unused register check_byte[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":127:0:127:5|Optimizing register bit rdy1 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":127:0:127:5|Pruning unused register rdy1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":127:0:127:5|Pruning unused register state_rdy. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":1:7:1:22|Synthesizing module communication_2M in library work.
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":159:22:159:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":165:12:165:18|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":166:19:166:32|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":167:20:167:34|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":342:20:342:28|Removing redundant assignment.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Pruning unused register out_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Pruning unused register count_data_delay[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit command[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit command[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Optimizing register bit reset_counter[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Pruning register bit 7 of command[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Pruning register bit 3 of command[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":112:0:112:5|Pruning unused register reset_counter[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":3:7:3:17|Synthesizing module sch16t_init in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	EN_SENSOR=32'b00001101011000000000000000001010
+	SET_EOI=32'b00001101011000000000000000011100
+	SET_FILTER_RATE_XYZ=32'b00001001011000000000000000000110
+	SET_FILTER_ACC=32'b00001001101000000000000000000000
+	READ_SUM_STATUS=32'b00000101000000000000000000000111
+	CLOCK_1MS=32'b00000000000000001001110001000000
+	P_IDLE=32'b00000000000000000000000000000001
+	P_RESET=32'b00000000000000000000000000000010
+	P_WAIT_RESET=32'b00000000000000000000000000000011
+	P_SET_FILTERS=32'b00000000000000000000000000000100
+	P_SET_RATESENS=32'b00000000000000000000000000000101
+	P_SET_ACCSENS=32'b00000000000000000000000000000110
+	P_SET_DRY=32'b00000000000000000000000000000111
+	P_EN_SENSOR=32'b00000000000000000000000000001000
+	P_WAIT_SENSOR=32'b00000000000000000000000000001001
+	P_EOI=32'b00000000000000000000000000001010
+	P_WAIT_EOI=32'b00000000000000000000000000001011
+	P_READ_TWICE=32'b00000000000000000000000000001100
+	P_CHECK=32'b00000000000000000000000000001101
+	P_OVER=32'b00000000000000000000000000001110
+   Generated name = sch16t_init_Z1
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":164:26:164:39|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":176:23:176:33|Removing redundant assignment.
+@W: CG360 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|Removing wire o_state, as there is no assignment to it.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":135:0:135:5|Pruning unused bits 31 to 20 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":135:0:135:5|Pruning unused bits 11 to 0 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Optimizing register bit ro_cmd[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Pruning register bits 31 to 28 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Pruning register bit 25 of ro_cmd[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Pruning register bits 20 to 5 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":2:7:2:21|Synthesizing module sch16t_loopRead in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	READ_RATE_X1=32'b00000000010000000000000000000001
+	READ_RATE_Y1=32'b00000000100000000000000000000111
+	READ_RATE_Z1=32'b00000000110000000000000000000101
+	READ_ACC_X1=32'b00000001000000000000000000000000
+	READ_ACC_Y1=32'b00000001010000000000000000000010
+	READ_ACC_Z1=32'b00000001100000000000000000000100
+	READ_TEMPERATURE=32'b00000100000000000000000000000100
+   Generated name = sch16t_loopRead_32s_4194305_8388615_12582917_16777216_20971522_25165828_67108868_Z2
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":75:22:75:31|Removing redundant assignment.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":50:0:50:5|Pruning unused bits 31 to 20 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":50:0:50:5|Pruning unused bits 3 to 0 of ri_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Optimizing register bit ro_cmd[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Optimizing register bit ro_sens_data[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Pruning register bits 31 to 27 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Pruning register bit 25 of ro_cmd[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":78:0:78:5|Pruning register bits 21 to 3 of ro_cmd[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":108:0:108:5|Pruning register bits 31 to 16 of ro_sens_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":4:7:4:16|Synthesizing module spi_master in library work.
+
+	CLK_FREQ=32'b00000010011000100101101000000000
+	SCK_FREQ=32'b00000000100110001001011010000000
+	CPOL=32'b00000000000000000000000000000000
+	CPHA=32'b00000000000000000000000000000000
+	DATA_WIDTH=32'b00000000000000000000000000100000
+	NUM_WORDS=32'b00000000000000000000000000000100
+	T_CS_SETUP=32'b00000000000000000000000000101000
+	T_CS_HOLD=32'b00000000000000000000000000101000
+	T_SETUP=32'b00000000000000000000000000001010
+	CLK_PERIOD_NS=32'b00000000000000000000000000011001
+	SCK_PERIOD_NS=32'b00000000000000000000000001100100
+	SCK_HALF_CYCLES=32'b00000000000000000000000000000010
+	SCK_HALF_CYCLES_ACTUAL=32'b00000000000000000000000000000010
+	CS_SETUP_CYCLES=32'b00000000000000000000000000000010
+	CS_HOLD_CYCLES=32'b00000000000000000000000000000010
+	SETUP_CYCLES=32'b00000000000000000000000000000001
+	STATE_IDLE=4'b0000
+	STATE_CS_ASSERT=4'b0001
+	STATE_CS_SETTLE=4'b0010
+	STATE_SEND_BIT=4'b0011
+	STATE_SCK_HIGH=4'b0100
+	STATE_SCK_LOW=4'b0101
+	STATE_CS_DEASSERT=4'b0110
+	STATE_CS_DELAY=4'b0111
+	STATE_TRANSFER_DONE=4'b1000
+   Generated name = spi_master_Z3
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":181:19:181:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":187:19:187:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":199:20:199:27|Removing redundant assignment.
+@W:"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":235:43:235:65|Index into variable lb_data_in could be out of range - a simulation mismatch is possible
+@N: CG793 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":276:12:276:19|Ignoring system task $display
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":279:28:279:39|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":291:23:291:33|Removing redundant assignment.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":193:0:193:5|Pruning unused register word_cnt[2:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":3:7:3:15|Synthesizing module sch16t_rw in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = sch16t_rw_32s
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":69:20:69:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":81:23:81:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":96:18:96:23|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":109:23:109:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_module.v":3:7:3:19|Synthesizing module sch16t_module in library work.
+
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":1:7:1:9|Synthesizing module acc in library work.
+
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":43:18:43:28|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":50:16:50:26|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":51:13:51:20|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":52:14:52:22|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":21:7:21:15|Synthesizing module main_prog in library work.
+
+@W: CG532 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":97:0:97:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":128:7:128:9|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":206:25:206:29|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":239:27:239:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":240:27:240:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":241:27:241:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":242:27:242:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":243:27:243:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":244:27:244:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":245:27:245:30|Removing redundant assignment.
+@W: CG360 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":70:24:70:30|Removing wire o_state, as there is no assignment to it.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":250:0:250:5|Pruning unused register x_acc_data_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":250:0:250:5|Pruning unused register y_acc_data_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":250:0:250:5|Pruning unused register z_acc_data_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused register x_acc_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused register y_acc_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused register z_acc_data[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused bits 31 to 16 of x_gyro_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused bits 31 to 16 of y_gyro_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused bits 31 to 16 of z_gyro_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":210:0:210:5|Pruning unused bits 31 to 16 of temp[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":103:0:103:5|Register bit reset_cnt[15] is always 1.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":103:0:103:5|Pruning register bit 15 of reset_cnt[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":82:0:82:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":63:0:63:5|Optimizing register bit r_read_seq[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":63:0:63:5|Optimizing register bit r_read_seq[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":63:0:63:5|Optimizing register bit r_read_seq[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":63:0:63:5|Optimizing register bit r_read_seq[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":63:0:63:5|Pruning register bits 7 to 4 of r_read_seq[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":50:0:50:5|Pruning unused register ri_ready. Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":13:32:13:37|Input port bits 31 to 20 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":13:32:13:37|Input port bits 3 to 0 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL177 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Sharing sequential element ro_valid. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":108:0:108:5|Pruning register bit 27 of ro_cmd[27:26]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":72:0:72:5|Trying to extract state machine for register r_st_current.
+Extracted state machine for register r_st_current
+State machine has 14 reachable states with original encodings of:
+   00000001
+   00000010
+   00000011
+   00000100
+   00000101
+   00000110
+   00000111
+   00001000
+   00001001
+   00001010
+   00001011
+   00001100
+   00001101
+   00001110
+@W: CL246 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":14:32:14:37|Input port bits 31 to 20 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":14:32:14:37|Input port bits 11 to 0 of i_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":17:29:17:35|*Output o_state has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Optimizing register bit count_clk384[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Pruning register bits 11 to 9 of count_clk384[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Trying to extract state machine for register STATE_OUT.
+Extracted state machine for register STATE_OUT
+State machine has 3 reachable states with original encodings of:
+   001
+   010
+   100
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|Trying to extract state machine for register data_cnt.
+Extracted state machine for register data_cnt
+State machine has 4 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\uart_receiver.v":56:0:56:5|Trying to extract state machine for register STATE_REC.
+Extracted state machine for register STATE_REC
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 22 16:28:08 2025
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 22 16:28:08 2025
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 22 16:28:08 2025
+
+###########################################################]

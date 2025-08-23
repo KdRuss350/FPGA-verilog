@@ -1,0 +1,90 @@
+
+fsm_encoding {10590594} sequential
+
+fsm_state_encoding {10590594} 00000 {00}
+
+fsm_state_encoding {10590594} 00001 {01}
+
+fsm_state_encoding {10590594} 00010 {10}
+
+fsm_state_encoding {10590594} 00011 {11}
+
+fsm_registers {10590594} {data_cnt[1]}  {data_cnt[0]} 
+
+fsm_encoding {9560565} onehot
+
+fsm_state_encoding {9560565} IDLE {00001}
+
+fsm_state_encoding {9560565} START {00010}
+
+fsm_state_encoding {9560565} BIT8 {00100}
+
+fsm_state_encoding {9560565} SHIFT {01000}
+
+fsm_state_encoding {9560565} JUDGE {10000}
+
+fsm_registers {9560565} {STATE_REC[4]}  {STATE_REC[3]}  {STATE_REC[2]}  {STATE_REC[1]}  {STATE_REC[0]} 
+
+fsm_encoding {827102713} sequential
+
+fsm_state_encoding {827102713} DATA_IDLE {00}
+
+fsm_state_encoding {827102713} DATA_VALUE {01}
+
+fsm_state_encoding {827102713} DATA_OUT {10}
+
+fsm_registers {827102713} {STATE_OUT[1]}  {STATE_OUT[0]} 
+
+fsm_encoding {14720722} onehot
+
+fsm_state_encoding {14720722} 00000001 {00000000000001}
+
+fsm_state_encoding {14720722} 00000010 {00000000000010}
+
+fsm_state_encoding {14720722} 00000011 {00000000000100}
+
+fsm_state_encoding {14720722} 00000100 {00000000001000}
+
+fsm_state_encoding {14720722} 00000101 {00000000010000}
+
+fsm_state_encoding {14720722} 00000110 {00000000100000}
+
+fsm_state_encoding {14720722} 00000111 {00000001000000}
+
+fsm_state_encoding {14720722} 00001000 {00000010000000}
+
+fsm_state_encoding {14720722} 00001001 {00000100000000}
+
+fsm_state_encoding {14720722} 00001010 {00001000000000}
+
+fsm_state_encoding {14720722} 00001011 {00010000000000}
+
+fsm_state_encoding {14720722} 00001100 {00100000000000}
+
+fsm_state_encoding {14720722} 00001101 {01000000000000}
+
+fsm_state_encoding {14720722} 00001110 {10000000000000}
+
+fsm_registers {14720722} {r_st_current[13]}  {r_st_current[12]}  {r_st_current[11]}  {r_st_current[10]}  {r_st_current[9]}  {r_st_current[8]}  {r_st_current[7]}  {r_st_current[6]}  {r_st_current[5]}  {r_st_current[4]}  {r_st_current[3]}  {r_st_current[2]}  {r_st_current[1]}  {r_st_current[0]} 
+
+fsm_encoding {12820821} onehot
+
+fsm_state_encoding {12820821} STATE_IDLE {000000001}
+
+fsm_state_encoding {12820821} STATE_CS_ASSERT {000000010}
+
+fsm_state_encoding {12820821} STATE_CS_SETTLE {000000100}
+
+fsm_state_encoding {12820821} STATE_SEND_BIT {000001000}
+
+fsm_state_encoding {12820821} STATE_SCK_HIGH {000010000}
+
+fsm_state_encoding {12820821} STATE_SCK_LOW {000100000}
+
+fsm_state_encoding {12820821} STATE_CS_DEASSERT {001000000}
+
+fsm_state_encoding {12820821} STATE_CS_DELAY {010000000}
+
+fsm_state_encoding {12820821} STATE_TRANSFER_DONE {100000000}
+
+fsm_registers {12820821} {current_state[8]}  {current_state[7]}  {current_state[6]}  {current_state[5]}  {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 

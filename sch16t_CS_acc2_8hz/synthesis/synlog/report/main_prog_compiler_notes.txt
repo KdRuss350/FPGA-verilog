@@ -1,0 +1,55 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1168:7:1168:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1959:7:1959:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\Global_NET.v":5:7:5:16|Synthesizing module Global_NET in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\uart_receiver.v":21:7:21:19|Synthesizing module uart_receiver in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\SRL16E.v":12:7:12:12|Synthesizing module SRL16E in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":21:7:21:16|Synthesizing module out_filter in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":1:7:1:22|Synthesizing module communication_2M in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":159:22:159:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":165:12:165:18|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":166:19:166:32|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":167:20:167:34|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":342:20:342:28|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":3:7:3:17|Synthesizing module sch16t_init in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":164:26:164:39|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":176:23:176:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":2:7:2:21|Synthesizing module sch16t_loopRead in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_loopRead.v":75:22:75:31|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":4:7:4:16|Synthesizing module spi_master in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":181:19:181:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":187:19:187:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":199:20:199:27|Removing redundant assignment.
+@N: CG793 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":276:12:276:19|Ignoring system task $display
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":279:28:279:39|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":291:23:291:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":3:7:3:15|Synthesizing module sch16t_rw in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":69:20:69:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":81:23:81:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":96:18:96:23|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_rw.v":109:23:109:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_module.v":3:7:3:19|Synthesizing module sch16t_module in library work.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":1:7:1:9|Synthesizing module acc in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":43:18:43:28|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":50:16:50:26|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":51:13:51:20|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\acc.v":52:14:52:22|Removing redundant assignment.
+@N: CG364 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":21:7:21:15|Synthesizing module main_prog in library work.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":128:7:128:9|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":206:25:206:29|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":239:27:239:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":240:27:240:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":241:27:241:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":242:27:242:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":243:27:243:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":244:27:244:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":245:27:245:30|Removing redundant assignment.
+@N: CL189 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\main_prog.v":103:0:103:5|Register bit reset_cnt[15] is always 1.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\spi_master.v":82:0:82:5|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\sch16t_init.v":72:0:72:5|Trying to extract state machine for register r_st_current.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\communication_2M.v":271:0:271:5|Trying to extract state machine for register STATE_OUT.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\com_from_fk.v":59:0:59:5|Trying to extract state machine for register data_cnt.
+@N: CL201 :"C:\Users\liushuo\Desktop\vivado_fam\sch16t_CS_acc2_8hz\hdl\uart_receiver.v":56:0:56:5|Trying to extract state machine for register STATE_REC.
+@N|Running in 64-bit mode
+
